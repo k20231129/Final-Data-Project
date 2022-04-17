@@ -33,8 +33,8 @@
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
   
   //Read the data
-  // d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/heatmap_data.csv").then(function(data) {
-  d3.json("../Files/OscarsBestDirectorAward.json").then(function(data) {
+  d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/heatmap_data.csv").then(function(data) {
+  // d3.json("../Files/OscarsBestDirectorAward.json").then(function(data) {
     // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
     const myGroups = Array.from(new Set(data.map(d => d.group)))
     const myVars = Array.from(new Set(data.map(d => d.variable)))
