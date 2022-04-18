@@ -42,9 +42,9 @@
   d3.json("../Files/OscarsBestDirectorAward.json").then(function(data) {
     // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
     const CeremonyNum = Array.from(new Set(data.map(d => d["Ceremony #"])))
-    // const Person = Array.from(new Set(data.map(d => d.Person)))
-    // const Age = Array.from(new Set(data.map(d => d.Age)))
-    // const Movie = Array.from(new Set(data.map(d => d.Movie)))
+    const Person = Array.from(new Set(data.map(d => d.Person)))
+    const Age = Array.from(new Set(data.map(d => d.Age)))
+    const Movie = Array.from(new Set(data.map(d => d.Movie)))
     const Gender = Array.from(new Set(data.map(d => d.Gender)))
   
     // Build X scales and axis:
@@ -109,15 +109,15 @@
   
     // add the squares
     svg.selectAll()
-      .data(data, function(d) {return d.Age+':'+d.variable;})
+      .data(data, function(d) {return d.CeremonyNum+':'+d.Gender;})
       .join("rect")
-        .attr("x", function(d) { return x(d.Age) })
-        .attr("y", function(d) { return y(d.variable) })
+        .attr("x", function(d) { return x(d.CeremonyNum) })
+        .attr("y", function(d) { return y(d.Gender) })
         .attr("rx", 4)
         .attr("ry", 4)
         .attr("width", x.bandwidth() )
         .attr("height", y.bandwidth() )
-        .style("fill", function(d) { return myColor(d.value)} )
+        .style("fill", function(d) { return myColor(d.Age)} )
         .style("stroke-width", 4)
         .style("stroke", "none")
         .style("opacity", 0.8)
