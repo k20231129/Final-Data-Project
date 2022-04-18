@@ -41,8 +41,12 @@
   //Read the data
   d3.json("../Files/OscarsBestDirectorAward.json").then(function(data) {
     // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
+    // const CeremonyNum = Array.from(new Set(data.map(d => d.Ceremony #)))
+    // how to make this ceremony #?
+    const Person = Array.from(new Set(data.map(d => d.Person)))
     const Age = Array.from(new Set(data.map(d => d.Age)))
-    const myVars = Array.from(new Set(data.map(d => d.variable)))
+    const Movie = Array.from(new Set(data.map(d => d.Movie)))
+    const Gender = Array.from(new Set(data.map(d => d.Gender)))
   
     // Build X scales and axis:
     const x = d3.scaleBand()
