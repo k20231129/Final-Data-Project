@@ -61,7 +61,7 @@
     // Build Y scales and axis:
     const y = d3.scaleBand()
       .range([ height, 0 ])
-      .domain(myVars)
+      .domain(Gender)
       // how to make the y axis just the count of nominees
       .padding(0.05);
     svg.append("g")
