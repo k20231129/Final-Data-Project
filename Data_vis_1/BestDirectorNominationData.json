@@ -1,0 +1,5532 @@
+{
+    "1": {
+        "names": [
+            "Frank Borzage",
+            "Lewis Milestone",
+            "Herbert Brenon",
+            "King Vidor",
+            "Ted Wilde"
+        ],
+        "movie": [
+            "7th Heaven",
+            "Two Arabian Knights",
+            "Sorrell and Son",
+            "The Crowd",
+            "Speedy"
+        ],
+        "win": [
+            true,
+            true,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "23-Apr-1894",
+            "30-Sep-1895",
+            "13-Jan-1880",
+            "8-Feb-1894",
+            "16-Dec-1889"
+        ],
+        "age": [
+            33,
+            32,
+            47,
+            33,
+            38
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight",
+            "Na"
+        ],
+        "CeremonyNum": "1"
+    },
+    "2": {
+        "names": [
+            "Frank Lloyd",
+            "Lionel Barrymore",
+            "Harry Beaumont",
+            "Irving Cummings",
+            "Frank Lloyd",
+            "Frank Lloyd",
+            "Ernst Lubitsch"
+        ],
+        "movie": [
+            "The Divine Lady",
+            "Madame X",
+            "The Broadway Melody",
+            "In Old Arizona",
+            "Drag",
+            "Weary River",
+            "The Patriot"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "8-Jun-1867",
+            "28-Apr-1878",
+            "2-Oct-1888",
+            "9-Oct-1888",
+            "8-Jun-1867",
+            "8-Jun-1867",
+            "28-Jan-1892"
+        ],
+        "age": [
+            61,
+            50,
+            40,
+            40,
+            61,
+            61,
+            36
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "2"
+    },
+    "3": {
+        "names": [
+            "Lewis Milestone",
+            "Clarence Brown",
+            "Clarence Brown",
+            "Robert Z. Leonard",
+            "Ernst Lubitsch",
+            "King Vidor"
+        ],
+        "movie": [
+            "All Quiet on the Western Front",
+            "Anna Christie",
+            "Romance",
+            "The Divorcee",
+            "The Love Parade",
+            "Hallelujah!"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "30-Sep-1895",
+            "10-May-1890",
+            "10-May-1890",
+            "7-Oct-1889",
+            "28-Jan-1892",
+            "8-Feb-1894"
+        ],
+        "age": [
+            34,
+            39,
+            39,
+            40,
+            37,
+            35
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "3"
+    },
+    "4": {
+        "names": [
+            "Norman Taurog",
+            "Clarence Brown",
+            "Lewis Milestone",
+            "Wesley Ruggles",
+            "Josef von Sternberg"
+        ],
+        "movie": [
+            "Skippy",
+            "A Free Soul",
+            "The Front Page",
+            "Cimarron",
+            "Morocco"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "23-Feb-1899",
+            "10-May-1890",
+            "30-Sep-1895",
+            "11-Jun-1889",
+            "29-May-1894"
+        ],
+        "age": [
+            31,
+            40,
+            35,
+            41,
+            36
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "4"
+    },
+    "5": {
+        "names": [
+            "Frank Borzage",
+            "King Vidor",
+            "Josef von Sternberg"
+        ],
+        "movie": [
+            "Bad Girl",
+            "The Champ",
+            "Shanghai Express"
+        ],
+        "win": [
+            true,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "23-Apr-1894",
+            "8-Feb-1894",
+            "29-May-1894"
+        ],
+        "age": [
+            37,
+            37,
+            37
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "5"
+    },
+    "6": {
+        "names": [
+            "Frank Lloyd",
+            "Frank Capra",
+            "George Cukor"
+        ],
+        "movie": [
+            "Cavalcade",
+            "Lady for a Day",
+            "Little Women"
+        ],
+        "win": [
+            true,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "8-Jun-1867",
+            "18-May-1897",
+            "7-Jul-1899"
+        ],
+        "age": [
+            65,
+            35,
+            33
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Gay"
+        ],
+        "CeremonyNum": "6"
+    },
+    "7": {
+        "names": [
+            "Frank Capra",
+            "Victor Schertzinger",
+            "W. S. Van Dyke"
+        ],
+        "movie": [
+            "It Happened One Night",
+            "One Night of Love",
+            "The Thin Man"
+        ],
+        "win": [
+            true,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-May-1897",
+            "8-Apr-1890",
+            "21-Mar-1889"
+        ],
+        "age": [
+            37,
+            44,
+            45
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "7"
+    },
+    "8": {
+        "names": [
+            "John Ford",
+            "Henry Hathaway",
+            "Frank Lloyd"
+        ],
+        "movie": [
+            "The Informer",
+            "The Lives of a Bengal Lancer",
+            "Mutiny on the Bounty"
+        ],
+        "win": [
+            true,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Feb-1894",
+            "13-Mar-1898",
+            "8-Jun-1867"
+        ],
+        "age": [
+            41,
+            37,
+            68
+        ],
+        "sexual orientation": [
+            "Bisexual",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "8"
+    },
+    "9": {
+        "names": [
+            "Frank Capra",
+            "Gregory La Cava",
+            "Robert Z. Leonard",
+            "W. S. Van Dyke",
+            "William Wyler"
+        ],
+        "movie": [
+            "Mr. Deeds Goes to Town",
+            "My Man Godfrey",
+            "The Great Ziegfeld",
+            "San Francisco",
+            "Dodsworth"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-May-1897",
+            "10-Mar-1892",
+            "7-Oct-1889",
+            "21-Mar-1889",
+            "1-Jul-1902"
+        ],
+        "age": [
+            39,
+            44,
+            47,
+            47,
+            34
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "9"
+    },
+    "10": {
+        "names": [
+            "Leo McCarey",
+            "William Dieterle",
+            "Sidney Franklin",
+            "Gregory La Cava",
+            "William A. Wellman"
+        ],
+        "movie": [
+            "The Awful Truth",
+            "The Life of Emile Zola",
+            "The Good Earth",
+            "Stage Door",
+            "A Star Is Born"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "3-Oct-1898",
+            "15-Jul-1893",
+            "21-Mar-1893",
+            "10-Mar-1892",
+            "29-Feb-1896"
+        ],
+        "age": [
+            39,
+            44,
+            44,
+            45,
+            41
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "10"
+    },
+    "11": {
+        "names": [
+            "Frank Capra",
+            "Michael Curtiz",
+            "Michael Curtiz",
+            "Norman Taurog",
+            "King Vidor"
+        ],
+        "movie": [
+            "You Can't Take It with You",
+            "Angels with Dirty Faces",
+            "Four Daughters",
+            "Boys Town",
+            "The Citadel"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-May-1897",
+            "24-Dec-1886",
+            "24-Dec-1886",
+            "23-Feb-1899",
+            "8-Feb-1894"
+        ],
+        "age": [
+            41,
+            52,
+            52,
+            39,
+            44
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "11"
+    },
+    "12": {
+        "names": [
+            "Victor Fleming",
+            "Frank Capra",
+            "John Ford",
+            "Sam Wood",
+            "William Wyler"
+        ],
+        "movie": [
+            "Gone with the Wind",
+            "Mr. Smith Goes to Washington",
+            "Stagecoach",
+            "Goodbye, Mr. Chips",
+            "Wuthering Heights"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "23-Feb-1883",
+            "18-May-1897",
+            "1-Feb-1894",
+            "10-Jul-1883",
+            "1-Jul-1902"
+        ],
+        "age": [
+            56,
+            42,
+            45,
+            56,
+            37
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Bisexual",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "12"
+    },
+    "13": {
+        "names": [
+            "John Ford",
+            "George Cukor",
+            "Alfred Hitchcock",
+            "Sam Wood",
+            "William Wyler"
+        ],
+        "movie": [
+            "The Grapes of Wrath",
+            "The Philadelphia Story",
+            "Rebecca",
+            "Kitty Foyle",
+            "The Letter"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Feb-1894",
+            "7-Jul-1899",
+            "13-Aug-1899",
+            "10-Jul-1883",
+            "1-Jul-1902"
+        ],
+        "age": [
+            46,
+            41,
+            41,
+            57,
+            38
+        ],
+        "sexual orientation": [
+            "Bisexual",
+            "Gay",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "13"
+    },
+    "14": {
+        "names": [
+            "John Ford",
+            "Alexander Hall",
+            "Howard Hawks",
+            "Orson Welles",
+            "William Wyler"
+        ],
+        "movie": [
+            "How Green Was My Valley",
+            "Here Comes Mr. Jordan",
+            "Sergeant York",
+            "Citizen Kane",
+            "The Little Foxes"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Feb-1894",
+            "11-Jan-1894",
+            "30-May-1896",
+            "6-May-1915",
+            "1-Jul-1902"
+        ],
+        "age": [
+            47,
+            47,
+            45,
+            26,
+            39
+        ],
+        "sexual orientation": [
+            "Bisexual",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "14"
+    },
+    "15": {
+        "names": [
+            "William Wyler",
+            "Michael Curtiz",
+            "John Farrow",
+            "Mervyn LeRoy",
+            "Sam Wood"
+        ],
+        "movie": [
+            "Mrs. Miniver",
+            "Yankee Doodle Dandy",
+            "Wake Island",
+            "Random Harvest",
+            "Kings Row"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Jul-1902",
+            "24-Dec-1886",
+            "10-Feb-1904",
+            "15-Oct-1900",
+            "10-Jul-1883"
+        ],
+        "age": [
+            40,
+            56,
+            38,
+            42,
+            59
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "15"
+    },
+    "16": {
+        "names": [
+            "Michael Curtiz",
+            "Clarence Brown",
+            "Henry King",
+            "Ernst Lubitsch",
+            "George Stevens"
+        ],
+        "movie": [
+            "Casablanca",
+            "The Human Comedy",
+            "The Song of Bernadette",
+            "Heaven Can Wait",
+            "The More the Merrier"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "24-Dec-1886",
+            "10-May-1890",
+            "24-Jan-1886",
+            "28-Jan-1892",
+            "18-Dec-1904"
+        ],
+        "age": [
+            57,
+            53,
+            57,
+            51,
+            39
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "16"
+    },
+    "17": {
+        "names": [
+            "Leo McCarey",
+            "Alfred Hitchcock",
+            "Henry King",
+            "Otto Preminger",
+            "Billy Wilder"
+        ],
+        "movie": [
+            "Going My Way",
+            "Lifeboat",
+            "Wilson",
+            "Laura",
+            "Double Indemnity"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "3-Oct-1898",
+            "13-Aug-1899",
+            "24-Jan-1886",
+            "5-Dec-1906",
+            "22-Jun-1906"
+        ],
+        "age": [
+            46,
+            45,
+            58,
+            38,
+            38
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "17"
+    },
+    "18": {
+        "names": [
+            "Billy Wilder",
+            "Clarence Brown",
+            "Alfred Hitchcock",
+            "Leo McCarey",
+            "Jean Renoir"
+        ],
+        "movie": [
+            "The Lost Weekend",
+            "National Velvet",
+            "Spellbound",
+            "The Bells of St. Mary's",
+            "The Southerner"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "22-Jun-1906",
+            "10-May-1890",
+            "13-Aug-1899",
+            "3-Oct-1898",
+            "15-Sep-1894"
+        ],
+        "age": [
+            39,
+            55,
+            46,
+            47,
+            51
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "18"
+    },
+    "19": {
+        "names": [
+            "William Wyler",
+            "Clarence Brown",
+            "Frank Capra",
+            "David Lean",
+            "Robert Siodmak"
+        ],
+        "movie": [
+            "The Best Years of Our Lives",
+            "The Yearling",
+            "It's a Wonderful Life",
+            "Brief Encounter",
+            "The Killers"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Jul-1902",
+            "10-May-1890",
+            "18-May-1897",
+            "25-Mar-1908",
+            "8-Aug-1900"
+        ],
+        "age": [
+            44,
+            56,
+            49,
+            38,
+            46
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "19"
+    },
+    "20": {
+        "names": [
+            "Elia Kazan",
+            "George Cukor",
+            "Edward Dmytryk",
+            "Henry Koster",
+            "David Lean"
+        ],
+        "movie": [
+            "Gentleman's Agreement",
+            "A Double Life",
+            "Crossfire",
+            "The Bishop's Wife",
+            "Great Expectations"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "7-Sep-1909",
+            "7-Jul-1899",
+            "4-Sep-1908",
+            "1-May-1905",
+            "25-Mar-1908"
+        ],
+        "age": [
+            38,
+            48,
+            39,
+            42,
+            39
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Gay",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "20"
+    },
+    "21": {
+        "names": [
+            "John Huston",
+            "Anatole Litvak",
+            "Jean Negulesco",
+            "Laurence Olivier",
+            "Fred Zinnemann"
+        ],
+        "movie": [
+            "The Treasure of the Sierra Madre",
+            "The Snake Pit",
+            "Johnny Belinda",
+            "Hamlet",
+            "The Search"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "5-Aug-1906",
+            "10-May-1902",
+            "26-Feb-1900",
+            "22-May-1907",
+            "29-Apr-1907"
+        ],
+        "age": [
+            42,
+            46,
+            48,
+            41,
+            41
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Bisexual",
+            "Straight"
+        ],
+        "CeremonyNum": "21"
+    },
+    "22": {
+        "names": [
+            "Joseph L. Mankiewicz",
+            "Carol Reed",
+            "Robert Rossen",
+            "William A. Wellman",
+            "William Wyler"
+        ],
+        "movie": [
+            "A Letter to Three Wives",
+            "The Fallen Idol",
+            "All the King's Men",
+            "Battleground",
+            "The Heiress"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "11-Feb-1909",
+            "30-Dec-1906",
+            "16-Mar-1908",
+            "29-Feb-1896",
+            "1-Jul-1902"
+        ],
+        "age": [
+            40,
+            43,
+            41,
+            53,
+            47
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "22"
+    },
+    "23": {
+        "names": [
+            "Joseph L. Mankiewicz",
+            "George Cukor",
+            "John Huston",
+            "Carol Reed",
+            "Billy Wilder"
+        ],
+        "movie": [
+            "All About Eve",
+            "Born Yesterday",
+            "The Asphalt Jungle",
+            "The Third Man",
+            "Sunset Boulevard"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "11-Feb-1909",
+            "7-Jul-1899",
+            "5-Aug-1906",
+            "30-Dec-1906",
+            "22-Jun-1906"
+        ],
+        "age": [
+            41,
+            51,
+            44,
+            44,
+            44
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Gay",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "23"
+    },
+    "24": {
+        "names": [
+            "George Stevens",
+            "John Huston",
+            "Elia Kazan",
+            "Vincente Minnelli",
+            "William Wyler"
+        ],
+        "movie": [
+            "A Place in the Sun",
+            "The African Queen",
+            "A Streetcar Named Desire",
+            "An American in Paris",
+            "Detective Story"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Dec-1904",
+            "5-Aug-1906",
+            "7-Sep-1909",
+            "28-Feb-1903",
+            "1-Jul-1902"
+        ],
+        "age": [
+            47,
+            45,
+            42,
+            48,
+            49
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Bisexual",
+            "Straight"
+        ],
+        "CeremonyNum": "24"
+    },
+    "25": {
+        "names": [
+            "John Ford",
+            "Cecil B. DeMille",
+            "John Huston",
+            "Joseph L. Mankiewicz",
+            "Fred Zinnemann"
+        ],
+        "movie": [
+            "The Quiet Man",
+            "The Greatest Show on Earth",
+            "Moulin Rouge",
+            "5 Fingers",
+            "High Noon"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Feb-1894",
+            "12-Aug-1881",
+            "5-Aug-1906",
+            "11-Feb-1909",
+            "29-Apr-1907"
+        ],
+        "age": [
+            58,
+            71,
+            46,
+            43,
+            45
+        ],
+        "sexual orientation": [
+            "Bisexual",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "25"
+    },
+    "26": {
+        "names": [
+            "Fred Zinnemann",
+            "George Stevens",
+            "Charles Walters",
+            "Billy Wilder",
+            "William Wyler"
+        ],
+        "movie": [
+            "From Here to Eternity",
+            "Shane",
+            "Lili",
+            "Stalag 17",
+            "Roman Holiday"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "29-Apr-1907",
+            "18-Dec-1904",
+            "17-Nov-1911",
+            "22-Jun-1906",
+            "1-Jul-1902"
+        ],
+        "age": [
+            46,
+            49,
+            42,
+            47,
+            51
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "26"
+    },
+    "27": {
+        "names": [
+            "Elia Kazan",
+            "Alfred Hitchcock",
+            "George Seaton",
+            "William A. Wellman",
+            "Billy Wilder"
+        ],
+        "movie": [
+            "On the Waterfront",
+            "Rear Window",
+            "The Country Girl",
+            "The High and the Mighty",
+            "Sabrina"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "7-Sep-1909",
+            "13-Aug-1899",
+            "17-Apr-1911",
+            "29-Feb-1896",
+            "22-Jun-1906"
+        ],
+        "age": [
+            45,
+            55,
+            43,
+            58,
+            48
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "27"
+    },
+    "28": {
+        "names": [
+            "Delbert Mann",
+            "Elia Kazan",
+            "David Lean",
+            "Joshua Logan",
+            "John Sturges"
+        ],
+        "movie": [
+            "Marty",
+            "East of Eden",
+            "Summertime",
+            "Picnic",
+            "Bad Day at Black Rock"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "30-Jan-1920",
+            "7-Sep-1909",
+            "25-Mar-1908",
+            "5-Oct-1908",
+            "3-Jan-1911"
+        ],
+        "age": [
+            35,
+            46,
+            47,
+            47,
+            44
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "28"
+    },
+    "29": {
+        "names": [
+            "George Stevens",
+            "Michael Anderson",
+            "Walter Lang",
+            "King Vidor",
+            "William Wyler"
+        ],
+        "movie": [
+            "Giant",
+            "Around the World in 80 Days",
+            "The King and I",
+            "War and Peace",
+            "Friendly Persuasion"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Dec-1904",
+            "30-Jan-1920",
+            "10-Aug-1896",
+            "8-Feb-1894",
+            "1-Jul-1902"
+        ],
+        "age": [
+            52,
+            36,
+            60,
+            62,
+            54
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "29"
+    },
+    "30": {
+        "names": [
+            "David Lean",
+            "Joshua Logan",
+            "Sidney Lumet",
+            "Mark Robson",
+            "Billy Wilder"
+        ],
+        "movie": [
+            "The Bridge on the River Kwai",
+            "Sayonara",
+            "12 Angry Men",
+            "Peyton Place",
+            "Witness for the Prosecution"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "25-Mar-1908",
+            "5-Oct-1908",
+            "25-Jun-1924",
+            "4-Dec-1913",
+            "22-Jun-1906"
+        ],
+        "age": [
+            49,
+            49,
+            33,
+            44,
+            51
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "30"
+    },
+    "31": {
+        "names": [
+            "Vincente Minnelli",
+            "Richard Brooks",
+            "Stanley Kramer",
+            "Mark Robson",
+            "Robert Wise"
+        ],
+        "movie": [
+            "Gigi",
+            "Cat on a Hot Tin Roof",
+            "The Defiant Ones",
+            "The Inn of the Sixth Happiness",
+            "I Want to Live!"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "28-Feb-1903",
+            "18-May-1912",
+            "29-Sep-1913",
+            "4-Dec-1913",
+            "10-Sep-1914"
+        ],
+        "age": [
+            55,
+            46,
+            45,
+            45,
+            44
+        ],
+        "sexual orientation": [
+            "Bisexual",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "31"
+    },
+    "32": {
+        "names": [
+            "William Wyler",
+            "Jack Clayton",
+            "George Stevens",
+            "Billy Wilder",
+            "Fred Zinnemann"
+        ],
+        "movie": [
+            "Ben-Hur",
+            "Room at the Top",
+            "The Diary of Anne Frank",
+            "Some Like It Hot",
+            "The Nun's Story"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Jul-1902",
+            "1-Mar-1921",
+            "18-Dec-1904",
+            "22-Jun-1906",
+            "29-Apr-1907"
+        ],
+        "age": [
+            57,
+            38,
+            55,
+            53,
+            52
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "32"
+    },
+    "33": {
+        "names": [
+            "Billy Wilder",
+            "Jack Cardiff",
+            "Jules Dassin",
+            "Alfred Hitchcock",
+            "Fred Zinnemann"
+        ],
+        "movie": [
+            "The Apartment",
+            "Sons and Lovers",
+            "Never on Sunday",
+            "Psycho",
+            "The Sundowners"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "22-Jun-1906",
+            "18-Sep-1914",
+            "18-Dec-1911",
+            "13-Aug-1899",
+            "29-Apr-1907"
+        ],
+        "age": [
+            54,
+            46,
+            49,
+            61,
+            53
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "33"
+    },
+    "34": {
+        "names": [
+            "Jerome Robbins & Robert Wise",
+            "Federico Fellini",
+            "Stanley Kramer",
+            "Robert Rossen",
+            "J. Lee Thompson"
+        ],
+        "movie": [
+            "West Side Story",
+            "La Dolce Vita",
+            "Judgment at Nuremberg",
+            "The Hustler",
+            "The Guns of Navarone"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "10-Sep-1914",
+            "20-Jan-1920",
+            "29-Sep-1913",
+            "16-Mar-1908",
+            "1-Aug-1914"
+        ],
+        "age": [
+            47,
+            41,
+            48,
+            53,
+            47
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "34"
+    },
+    "35": {
+        "names": [
+            "David Lean",
+            "Pietro Germi",
+            "Robert Mulligan",
+            "Arthur Penn",
+            "Frank Perry"
+        ],
+        "movie": [
+            "Lawrence of Arabia",
+            "Divorce Italian Style",
+            "To Kill a Mockingbird",
+            "The Miracle Worker",
+            "David and Lisa"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "25-Mar-1908",
+            "14-Sep-1914",
+            "23-Aug-1925",
+            "27-Sep-1922",
+            "21-Aug-1930"
+        ],
+        "age": [
+            54,
+            48,
+            37,
+            40,
+            32
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Na",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "35"
+    },
+    "36": {
+        "names": [
+            "Tony Richardson",
+            "Federico Fellini",
+            "Elia Kazan",
+            "Otto Preminger",
+            "Martin Ritt"
+        ],
+        "movie": [
+            "Tom Jones",
+            "8\u00bd",
+            "America America",
+            "The Cardinal",
+            "Hud"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "5-Jun-1928",
+            "20-Jan-1920",
+            "7-Sep-1909",
+            "5-Dec-1906",
+            "2-Mar-1914"
+        ],
+        "age": [
+            35,
+            43,
+            54,
+            57,
+            49
+        ],
+        "sexual orientation": [
+            "Bisexual",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na"
+        ],
+        "CeremonyNum": "36"
+    },
+    "37": {
+        "names": [
+            "George Cukor",
+            "Michael Cacoyannis",
+            "Peter Glenville",
+            "Stanley Kubrick",
+            "Robert Stevenson"
+        ],
+        "movie": [
+            "My Fair Lady",
+            "Zorba the Greek",
+            "Becket",
+            "Dr. Strangelove",
+            "Mary Poppins"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "7-Jul-1899",
+            "11-Jun-1922",
+            "28-Oct-1913",
+            "26-Jul-1928",
+            "31-Mar-1905"
+        ],
+        "age": [
+            65,
+            42,
+            51,
+            36,
+            59
+        ],
+        "sexual orientation": [
+            "Gay",
+            "Na",
+            "Gay",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "37"
+    },
+    "38": {
+        "names": [
+            "Robert Wise",
+            "David Lean",
+            "John Schlesinger",
+            "Hiroshi Teshigahara",
+            "William Wyler"
+        ],
+        "movie": [
+            "The Sound of Music",
+            "Doctor Zhivago",
+            "Darling",
+            "Woman in the Dunes",
+            "The Collector"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "Asian",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "10-Sep-1914",
+            "25-Mar-1908",
+            "16-Feb-1926",
+            "28-Jan-1927",
+            "1-Jul-1902"
+        ],
+        "age": [
+            51,
+            57,
+            39,
+            38,
+            63
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Gay",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "38"
+    },
+    "39": {
+        "names": [
+            "Fred Zinnemann",
+            "Michelangelo Antonioni",
+            "Richard Brooks",
+            "Claude Lelouch",
+            "Mike Nichols"
+        ],
+        "movie": [
+            "A Man for All Seasons",
+            "Blowup",
+            "The Professionals",
+            "A Man and a Woman",
+            "Who's Afraid of Virginia Woolf?"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "29-Apr-1907",
+            "29-Sep-1912",
+            "18-May-1912",
+            "30-Oct-1937",
+            "6-Nov-1931"
+        ],
+        "age": [
+            59,
+            54,
+            54,
+            29,
+            35
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "39"
+    },
+    "40": {
+        "names": [
+            "Mike Nichols",
+            "Richard Brooks",
+            "Norman Jewison",
+            "Stanley Kramer",
+            "Arthur Penn"
+        ],
+        "movie": [
+            "The Graduate",
+            "In Cold Blood",
+            "In the Heat of the Night",
+            "Guess Who's Coming to Dinner",
+            "Bonnie and Clyde"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "6-Nov-1931",
+            "18-May-1912",
+            "21-Jul-1926",
+            "29-Sep-1913",
+            "27-Sep-1922"
+        ],
+        "age": [
+            36,
+            55,
+            41,
+            54,
+            45
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "40"
+    },
+    "41": {
+        "names": [
+            "Carol Reed",
+            "Anthony Harvey",
+            "Stanley Kubrick",
+            "Gillo Pontecorvo",
+            "Franco Zeffirelli"
+        ],
+        "movie": [
+            "Oliver!",
+            "The Lion in Winter",
+            "2001: A Space Odyssey",
+            "The Battle of Algiers",
+            "Romeo and Juliet"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "30-Dec-1906",
+            "3-Jun-1930",
+            "26-Jul-1928",
+            "19-Nov-1919",
+            "12-Feb-1923"
+        ],
+        "age": [
+            62,
+            38,
+            40,
+            49,
+            45
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Na",
+            "Straight",
+            "Straight",
+            "Gay"
+        ],
+        "CeremonyNum": "41"
+    },
+    "42": {
+        "names": [
+            "John Schlesinger",
+            "Costa-Gavras",
+            "George Roy Hill",
+            "Arthur Penn",
+            "Sydney Pollack"
+        ],
+        "movie": [
+            "Midnight Cowboy",
+            "Z",
+            "Butch Cassidy and the Sundance Kid",
+            "Alice's Restaurant",
+            "They Shoot Horses, Don't They?"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "16-Feb-1926",
+            "12-Feb-1933",
+            "20-Dec-1921",
+            "27-Sep-1922",
+            "1-Jul-1934"
+        ],
+        "age": [
+            43,
+            36,
+            48,
+            47,
+            35
+        ],
+        "sexual orientation": [
+            "Gay",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "42"
+    },
+    "43": {
+        "names": [
+            "Franklin J. Schaffner",
+            "Robert Altman",
+            "Federico Fellini",
+            "Arthur Hiller",
+            "Ken Russell"
+        ],
+        "movie": [
+            "Patton",
+            "M*A*S*H",
+            "Fellini Satyricon",
+            "Love Story",
+            "Women in Love"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "30-May-1920",
+            "20-Feb-1925",
+            "20-Jan-1920",
+            "22-Nov-1923",
+            "3-Jul-1927"
+        ],
+        "age": [
+            50,
+            45,
+            50,
+            47,
+            43
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "43"
+    },
+    "44": {
+        "names": [
+            "William Friedkin",
+            "Peter Bogdanovich",
+            "Norman Jewison",
+            "Stanley Kubrick",
+            "John Schlesinger"
+        ],
+        "movie": [
+            "The French Connection",
+            "The Last Picture Show",
+            "Fiddler on the Roof",
+            "A Clockwork Orange",
+            "Sunday Bloody Sunday"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "29-Aug-1935",
+            "30-Jul-1939",
+            "21-Jul-1926",
+            "26-Jul-1928",
+            "16-Feb-1926"
+        ],
+        "age": [
+            36,
+            32,
+            45,
+            43,
+            45
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Gay"
+        ],
+        "CeremonyNum": "44"
+    },
+    "45": {
+        "names": [
+            "Bob Fosse",
+            "John Boorman",
+            "Francis Ford Coppola",
+            "Joseph L. Mankiewicz",
+            "Jan Troell"
+        ],
+        "movie": [
+            "Cabaret",
+            "Deliverance",
+            "The Godfather",
+            "Sleuth",
+            "The Emigrants"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "23-Jun-1927",
+            "18-Jan-1933",
+            "7-Apr-1939",
+            "11-Feb-1909",
+            "23-Jul-1931"
+        ],
+        "age": [
+            45,
+            39,
+            33,
+            63,
+            41
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "45"
+    },
+    "46": {
+        "names": [
+            "George Roy Hill",
+            "Ingmar Bergman",
+            "Bernardo Bertolucci",
+            "William Friedkin",
+            "George Lucas"
+        ],
+        "movie": [
+            "The Sting",
+            "Cries and Whispers",
+            "Last Tango in Paris",
+            "The Exorcist",
+            "American Graffiti"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "20-Dec-1921",
+            "14-Jul-1918",
+            "16-Mar-1941",
+            "29-Aug-1935",
+            "14-May-1944"
+        ],
+        "age": [
+            52,
+            55,
+            32,
+            38,
+            29
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "46"
+    },
+    "47": {
+        "names": [
+            "Francis Ford Coppola",
+            "John Cassavetes",
+            "Bob Fosse",
+            "Roman Polanski",
+            "Fran\u00e7ois Truffaut"
+        ],
+        "movie": [
+            "The Godfather Part II",
+            "A Woman Under the Influence",
+            "Lenny",
+            "Chinatown",
+            "Day for Night"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "7-Apr-1939",
+            "9-Dec-1929",
+            "23-Jun-1927",
+            "18-Aug-1933",
+            "6-Feb-1932"
+        ],
+        "age": [
+            35,
+            45,
+            47,
+            41,
+            42
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "47"
+    },
+    "48": {
+        "names": [
+            "Milo\u0161 Forman",
+            "Robert Altman",
+            "Federico Fellini",
+            "Stanley Kubrick",
+            "Sidney Lumet"
+        ],
+        "movie": [
+            "One Flew Over the Cuckoo's Nest",
+            "Nashville",
+            "Amarcord",
+            "Barry Lyndon",
+            "Dog Day Afternoon"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Feb-1932",
+            "20-Feb-1925",
+            "20-Jan-1920",
+            "26-Jul-1928",
+            "25-Jun-1924"
+        ],
+        "age": [
+            43,
+            50,
+            55,
+            47,
+            51
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "48"
+    },
+    "49": {
+        "names": [
+            "John G. Avildsen",
+            "Ingmar Bergman",
+            "Sidney Lumet",
+            "Alan J. Pakula",
+            "Lina Wertm\u00fcller"
+        ],
+        "movie": [
+            "Rocky",
+            "Face to Face",
+            "Network",
+            "All the President's Men",
+            "Seven Beauties"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Female"
+        ],
+        "date of birth": [
+            "21-Dec-1935",
+            "14-Jul-1918",
+            "25-Jun-1924",
+            "7-Apr-1928",
+            "14-Aug-1928"
+        ],
+        "age": [
+            41,
+            58,
+            52,
+            48,
+            48
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "49"
+    },
+    "50": {
+        "names": [
+            "Woody Allen",
+            "George Lucas",
+            "Herbert Ross",
+            "Steven Spielberg",
+            "Fred Zinnemann"
+        ],
+        "movie": [
+            "Annie Hall",
+            "Star Wars",
+            "The Turning Point",
+            "Close Encounters of the Third Kind",
+            "Julia"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Dec-1935",
+            "14-May-1944",
+            "13-May-1927",
+            "18-Dec-1946",
+            "29-Apr-1907"
+        ],
+        "age": [
+            42,
+            33,
+            50,
+            31,
+            70
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "50"
+    },
+    "51": {
+        "names": [
+            "Michael Cimino",
+            "Woody Allen",
+            "Hal Ashby",
+            "Warren Beatty",
+            "Buck Henry",
+            "Alan Parker"
+        ],
+        "movie": [
+            "The Deer Hunter",
+            "Interiors",
+            "Coming Home",
+            "Heaven Can Wait",
+            "Heaven Can Wait",
+            "Midnight Express"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "3-Feb-1939",
+            "1-Dec-1935",
+            "2-Sep-1929",
+            "30-Mar-1937",
+            "9-Dec-1930",
+            "14-Feb-1944"
+        ],
+        "age": [
+            39,
+            43,
+            49,
+            41,
+            48,
+            34
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "51"
+    },
+    "52": {
+        "names": [
+            "Robert Benton",
+            "Francis Ford Coppola",
+            "Bob Fosse",
+            "\u00c9douard Molinaro",
+            "Peter Yates"
+        ],
+        "movie": [
+            "Kramer vs. Kramer",
+            "Apocalypse Now",
+            "All That Jazz",
+            "La Cage aux Folles",
+            "Breaking Away"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "29-Sep-1932",
+            "7-Apr-1939",
+            "23-Jun-1927",
+            "31-May-1928",
+            "24-Jul-1929"
+        ],
+        "age": [
+            47,
+            40,
+            52,
+            51,
+            50
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "52"
+    },
+    "53": {
+        "names": [
+            "Robert Redford",
+            "David Lynch",
+            "Roman Polanski",
+            "Richard Rush",
+            "Martin Scorsese"
+        ],
+        "movie": [
+            "Ordinary People",
+            "The Elephant Man",
+            "Tess",
+            "The Stunt Man",
+            "Raging Bull"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Aug-1936",
+            "20-Jan-1946",
+            "18-Aug-1933",
+            "15-Apr-1929",
+            "17-Nov-1942"
+        ],
+        "age": [
+            44,
+            34,
+            47,
+            51,
+            38
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "53"
+    },
+    "54": {
+        "names": [
+            "Warren Beatty",
+            "Hugh Hudson",
+            "Louis Malle",
+            "Mark Rydell",
+            "Steven Spielberg"
+        ],
+        "movie": [
+            "Reds",
+            "Chariots of Fire",
+            "Atlantic City",
+            "On Golden Pond",
+            "Raiders of the Lost Ark"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "30-Mar-1937",
+            "25-Aug-1936",
+            "30-Oct-1932",
+            "23-Mar-1934",
+            "18-Dec-1946"
+        ],
+        "age": [
+            44,
+            45,
+            49,
+            47,
+            35
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "54"
+    },
+    "55": {
+        "names": [
+            "Richard Attenborough",
+            "Sidney Lumet",
+            "Wolfgang Petersen",
+            "Sydney Pollack",
+            "Steven Spielberg"
+        ],
+        "movie": [
+            "Gandhi",
+            "The Verdict",
+            "Das Boot",
+            "Tootsie",
+            "E.T. the Extra-Terrestrial"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "29-Aug-1923",
+            "25-Jun-1924",
+            "14-Mar-1941",
+            "1-Jul-1934",
+            "18-Dec-1946"
+        ],
+        "age": [
+            59,
+            58,
+            41,
+            48,
+            36
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "55"
+    },
+    "56": {
+        "names": [
+            "James L. Brooks",
+            "Bruce Beresford",
+            "Ingmar Bergman",
+            "Mike Nichols",
+            "Peter Yates"
+        ],
+        "movie": [
+            "Terms of Endearment",
+            "Tender Mercies",
+            "Fanny and Alexander",
+            "Silkwood",
+            "The Dresser"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "9-May-1940",
+            "16-Aug-1940",
+            "14-Jul-1918",
+            "6-Nov-1931",
+            "24-Jul-1929"
+        ],
+        "age": [
+            43,
+            43,
+            65,
+            52,
+            54
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "56"
+    },
+    "57": {
+        "names": [
+            "Milo\u0161 Forman",
+            "Woody Allen",
+            "Robert Benton",
+            "Roland Joff\u00e9",
+            "David Lean"
+        ],
+        "movie": [
+            "Amadeus",
+            "Broadway Danny Rose",
+            "Places in the Heart",
+            "The Killing Fields",
+            "A Passage to India"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Feb-1932",
+            "1-Dec-1935",
+            "29-Sep-1932",
+            "17-Nov-1945",
+            "25-Mar-1908"
+        ],
+        "age": [
+            52,
+            49,
+            52,
+            39,
+            76
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "57"
+    },
+    "58": {
+        "names": [
+            "Sydney Pollack",
+            "H\u00e9ctor Babenco",
+            "John Huston",
+            "Akira Kurosawa",
+            "Peter Weir"
+        ],
+        "movie": [
+            "Out of Africa",
+            "Kiss of the Spider Woman",
+            "Prizzi's Honor",
+            "Ran",
+            "Witness"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "Asian",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Jul-1934",
+            "7-Feb-1946",
+            "5-Aug-1906",
+            "23-Mar-1910",
+            "8-Aug-1944"
+        ],
+        "age": [
+            51,
+            39,
+            79,
+            75,
+            41
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "58"
+    },
+    "59": {
+        "names": [
+            "Oliver Stone",
+            "Woody Allen",
+            "James Ivory",
+            "Roland Joff\u00e9",
+            "David Lynch"
+        ],
+        "movie": [
+            "Platoon",
+            "Hannah and Her Sisters",
+            "A Room with a View",
+            "The Mission",
+            "Blue Velvet"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "15-Sep-1946",
+            "1-Dec-1935",
+            "7-Jun-1928",
+            "17-Nov-1945",
+            "20-Jan-1946"
+        ],
+        "age": [
+            40,
+            51,
+            58,
+            41,
+            40
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Gay",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "59"
+    },
+    "60": {
+        "names": [
+            "Bernardo Bertolucci",
+            "John Boorman",
+            "Lasse Hallstr\u00f6m",
+            "Norman Jewison",
+            "Adrian Lyne"
+        ],
+        "movie": [
+            "The Last Emperor",
+            "Hope and Glory",
+            "My Life as a Dog",
+            "Moonstruck",
+            "Fatal Attraction"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "16-Mar-1941",
+            "18-Jan-1933",
+            "2-Jun-1946",
+            "21-Jul-1926",
+            "4-Mar-1941"
+        ],
+        "age": [
+            46,
+            54,
+            41,
+            61,
+            46
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "60"
+    },
+    "61": {
+        "names": [
+            "Barry Levinson",
+            "Charles Crichton",
+            "Mike Nichols",
+            "Alan Parker",
+            "Martin Scorsese"
+        ],
+        "movie": [
+            "Rain Man",
+            "A Fish Called Wanda",
+            "Working Girl",
+            "Mississippi Burning",
+            "The Last Temptation of Christ"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "6-Apr-1942",
+            "6-Aug-1910",
+            "6-Nov-1931",
+            "14-Feb-1944",
+            "17-Nov-1942"
+        ],
+        "age": [
+            46,
+            78,
+            57,
+            44,
+            46
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "61"
+    },
+    "62": {
+        "names": [
+            "Oliver Stone",
+            "Woody Allen",
+            "Kenneth Branagh",
+            "Jim Sheridan",
+            "Peter Weir"
+        ],
+        "movie": [
+            "Born on the Fourth of July",
+            "Crimes and Misdemeanors",
+            "Henry V",
+            "My Left Foot",
+            "Dead Poets Society"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "15-Sep-1946",
+            "1-Dec-1935",
+            "10-Dec-1960",
+            "6-Feb-1949",
+            "8-Aug-1944"
+        ],
+        "age": [
+            43,
+            54,
+            29,
+            40,
+            45
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "62"
+    },
+    "63": {
+        "names": [
+            "Kevin Costner",
+            "Francis Ford Coppola",
+            "Stephen Frears",
+            "Barbet Schroeder",
+            "Martin Scorsese"
+        ],
+        "movie": [
+            "Dances with Wolves",
+            "The Godfather Part III",
+            "The Grifters",
+            "Reversal of Fortune",
+            "Goodfellas"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Jan-1955",
+            "7-Apr-1939",
+            "20-Jun-1941",
+            "26-Apr-1941",
+            "17-Nov-1942"
+        ],
+        "age": [
+            35,
+            51,
+            49,
+            49,
+            48
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "63"
+    },
+    "64": {
+        "names": [
+            "Jonathan Demme",
+            "Barry Levinson",
+            "Ridley Scott",
+            "John Singleton",
+            "Oliver Stone"
+        ],
+        "movie": [
+            "The Silence of the Lambs",
+            "Bugsy",
+            "Thelma & Louise",
+            "Boyz n the Hood",
+            "JFK"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "Black",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "22-Feb-1944",
+            "6-Apr-1942",
+            "30-Nov-1937",
+            "6-Jan-1968",
+            "15-Sep-1946"
+        ],
+        "age": [
+            47,
+            49,
+            54,
+            23,
+            45
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "64"
+    },
+    "65": {
+        "names": [
+            "Clint Eastwood",
+            "Robert Altman",
+            "Martin Brest",
+            "James Ivory",
+            "Neil Jordan"
+        ],
+        "movie": [
+            "Unforgiven",
+            "The Player",
+            "Scent of a Woman",
+            "Howards End",
+            "The Crying Game"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "31-May-1930",
+            "20-Feb-1925",
+            "8-Aug-1951",
+            "7-Jun-1928",
+            "25-Feb-1950"
+        ],
+        "age": [
+            62,
+            67,
+            41,
+            64,
+            42
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Na",
+            "Gay",
+            "Straight"
+        ],
+        "CeremonyNum": "65"
+    },
+    "66": {
+        "names": [
+            "Steven Spielberg",
+            "Robert Altman",
+            "Jane Campion",
+            "James Ivory",
+            "Jim Sheridan"
+        ],
+        "movie": [
+            "Schindler's List",
+            "Short Cuts",
+            "The Piano",
+            "The Remains of the Day",
+            "In the Name of the Father"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Female",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Dec-1946",
+            "20-Feb-1925",
+            "30-Apr-1954",
+            "7-Jun-1928",
+            "6-Feb-1949"
+        ],
+        "age": [
+            47,
+            68,
+            39,
+            65,
+            44
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Gay",
+            "Na"
+        ],
+        "CeremonyNum": "66"
+    },
+    "67": {
+        "names": [
+            "Robert Zemeckis",
+            "Woody Allen",
+            "Krzysztof Kie\u015blowski",
+            "Robert Redford",
+            "Quentin Tarantino"
+        ],
+        "movie": [
+            "Forrest Gump",
+            "Bullets over Broadway",
+            "Three Colours: Red",
+            "Quiz Show",
+            "Pulp Fiction"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "14-May-1952",
+            "1-Dec-1935",
+            "27-Jun-1941",
+            "18-Aug-1936",
+            "27-Mar-1963"
+        ],
+        "age": [
+            42,
+            59,
+            53,
+            58,
+            31
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "67"
+    },
+    "68": {
+        "names": [
+            "Mel Gibson",
+            "Mike Figgis",
+            "Chris Noonan",
+            "Michael Radford",
+            "Tim Robbins"
+        ],
+        "movie": [
+            "Braveheart",
+            "Leaving Las Vegas",
+            "Babe",
+            "Il Postino: The Postman",
+            "Dead Man Walking"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "3-Jan-1956",
+            "28-Feb-1948",
+            "14-Nov-1952",
+            "24-Feb-1946",
+            "16-Oct-1958"
+        ],
+        "age": [
+            39,
+            47,
+            43,
+            49,
+            37
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Na",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "68"
+    },
+    "69": {
+        "names": [
+            "Anthony Minghella",
+            "Joel Coen",
+            "Milo\u0161 Forman",
+            "Scott Hicks",
+            "Mike Leigh"
+        ],
+        "movie": [
+            "The English Patient",
+            "Fargo",
+            "The People vs. Larry Flynt",
+            "Shine",
+            "Secrets & Lies"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "6-Jan-1954",
+            "29-Nov-1954",
+            "18-Feb-1932",
+            "4-Mar-1953",
+            "20-Feb-1943"
+        ],
+        "age": [
+            42,
+            42,
+            64,
+            43,
+            53
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "69"
+    },
+    "70": {
+        "names": [
+            "James Cameron",
+            "Peter Cattaneo",
+            "Atom Egoyan",
+            "Curtis Hanson",
+            "Gus Van Sant"
+        ],
+        "movie": [
+            "Titanic",
+            "The Full Monty",
+            "The Sweet Hereafter",
+            "L.A. Confidential",
+            "Good Will Hunting"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "Asian",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "16-Aug-1954",
+            "1-Jul-1964",
+            "19-Jul-1960",
+            "24-Mar-1945",
+            "24-Jul-1952"
+        ],
+        "age": [
+            43,
+            33,
+            37,
+            52,
+            45
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Na",
+            "Straight",
+            "Straight",
+            "Gay"
+        ],
+        "CeremonyNum": "70"
+    },
+    "71": {
+        "names": [
+            "Steven Spielberg",
+            "Roberto Benigni",
+            "John Madden",
+            "Terrence Malick",
+            "Peter Weir"
+        ],
+        "movie": [
+            "Saving Private Ryan",
+            "Life Is Beautiful",
+            "Shakespeare in Love",
+            "The Thin Red Line",
+            "The Truman Show"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Dec-1946",
+            "27-Oct-1952",
+            "8-Apr-1949",
+            "30-Nov-1943",
+            "8-Aug-1944"
+        ],
+        "age": [
+            52,
+            46,
+            49,
+            55,
+            54
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "71"
+    },
+    "72": {
+        "names": [
+            "Sam Mendes",
+            "Lasse Hallstr\u00f6m",
+            "Spike Jonze",
+            "Michael Mann",
+            "M. Night Shyamalan"
+        ],
+        "movie": [
+            "American Beauty",
+            "The Cider House Rules",
+            "Being John Malkovich",
+            "The Insider",
+            "The Sixth Sense"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "Asian"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Aug-1965",
+            "2-Jun-1946",
+            "22-Oct-1969",
+            "5-Feb-1943",
+            "6-Aug-1970"
+        ],
+        "age": [
+            34,
+            53,
+            30,
+            56,
+            29
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "72"
+    },
+    "73": {
+        "names": [
+            "Steven Soderbergh",
+            "Stephen Daldry",
+            "Ang Lee",
+            "Ridley Scott",
+            "Steven Soderbergh"
+        ],
+        "movie": [
+            "Traffic",
+            "Billy Elliot",
+            "Crouching Tiger, Hidden Dragon",
+            "Gladiator",
+            "Erin Brockovich"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "Asian",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "14-Jan-1963",
+            "2-May-1961",
+            "23-Oct-1954",
+            "30-Nov-1937",
+            "14-Jan-1963"
+        ],
+        "age": [
+            37,
+            39,
+            46,
+            63,
+            37
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Bisexual",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "73"
+    },
+    "74": {
+        "names": [
+            "Ron Howard",
+            "Robert Altman",
+            "Peter Jackson",
+            "David Lynch",
+            "Ridley Scott"
+        ],
+        "movie": [
+            "A Beautiful Mind",
+            "Gosford Park",
+            "The Lord of the Rings: The Fellowship of the Ring",
+            "Mulholland Drive",
+            "Black Hawk Down"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "1-Mar-1954",
+            "20-Feb-1925",
+            "31-Oct-1961",
+            "20-Jan-1946",
+            "30-Nov-1937"
+        ],
+        "age": [
+            47,
+            76,
+            40,
+            55,
+            64
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "74"
+    },
+    "75": {
+        "names": [
+            "Roman Polanski",
+            "Pedro Almod\u00f3var",
+            "Stephen Daldry",
+            "Rob Marshall",
+            "Martin Scorsese"
+        ],
+        "movie": [
+            "The Pianist",
+            "Talk to Her",
+            "The Hours",
+            "Chicago",
+            "Gangs of New York"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "Hispanic",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "18-Aug-1933",
+            "25-Sep-1951",
+            "2-May-1961",
+            "17-Oct-1960",
+            "17-Nov-1942"
+        ],
+        "age": [
+            69,
+            51,
+            41,
+            42,
+            60
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Gay",
+            "Bisexual",
+            "Gay",
+            "Straight"
+        ],
+        "CeremonyNum": "75"
+    },
+    "76": {
+        "names": [
+            "Peter Jackson",
+            "Sofia Coppola",
+            "Clint Eastwood",
+            "Fernando Meirelles",
+            "Peter Weir"
+        ],
+        "movie": [
+            "The Lord of the Rings: The Return of the King",
+            "Lost in Translation",
+            "Mystic River",
+            "City of God",
+            "Master and Commander: The Far Side of the World"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Female",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "31-Oct-1961",
+            "14-May-1971",
+            "31-May-1930",
+            "9-Nov-1955",
+            "8-Aug-1944"
+        ],
+        "age": [
+            42,
+            32,
+            73,
+            48,
+            59
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "76"
+    },
+    "77": {
+        "names": [
+            "Clint Eastwood",
+            "Taylor Hackford",
+            "Mike Leigh",
+            "Alexander Payne",
+            "Martin Scorsese"
+        ],
+        "movie": [
+            "Million Dollar Baby",
+            "Ray",
+            "Vera Drake",
+            "Sideways",
+            "The Aviator"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "Asian",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "31-May-1930",
+            "31-Dec-1944",
+            "20-Feb-1943",
+            "23-Oct-1954",
+            "17-Nov-1942"
+        ],
+        "age": [
+            74,
+            60,
+            61,
+            50,
+            62
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "77"
+    },
+    "78": {
+        "names": [
+            "Ang Lee",
+            "George Clooney",
+            "Paul Haggis",
+            "Bennett Miller",
+            "Steven Spielberg"
+        ],
+        "movie": [
+            "Brokeback Mountain",
+            "Good Night, and Good Luck",
+            "Crash",
+            "Capote",
+            "Munich"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Asian",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "23-Oct-1954",
+            "6-May-1961",
+            "10-Mar-1953",
+            "30-Dec-1966",
+            "18-Dec-1946"
+        ],
+        "age": [
+            51,
+            44,
+            52,
+            39,
+            59
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "78"
+    },
+    "79": {
+        "names": [
+            "Martin Scorsese",
+            "Clint Eastwood",
+            "Stephen Frears",
+            "Paul Greengrass",
+            "Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu"
+        ],
+        "movie": [
+            "The Departed",
+            "Letters from Iwo Jima",
+            "The Queen",
+            "United 93",
+            "Babel"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "Hispanic"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "17-Nov-1942",
+            "31-May-1930",
+            "20-Jun-1941",
+            "13-Aug-1955",
+            "15-Aug-1963"
+        ],
+        "age": [
+            64,
+            76,
+            65,
+            51,
+            43
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "79"
+    },
+    "80": {
+        "names": [
+            "Joel Coen",
+            "Ethan Coen",
+            "Paul Thomas Anderson",
+            "Tony Gilroy",
+            "Jason Reitman",
+            "Julian Schnabel"
+        ],
+        "movie": [
+            "No Country for Old Men",
+            "No Country for Old Men",
+            "There Will Be Blood",
+            "Michael Clayton",
+            "Juno",
+            "The Diving Bell and the Butterfly"
+        ],
+        "win": [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "29-Nov-1954",
+            "21-Sep-1957",
+            "26-Jun-1970",
+            "11-Sep-1956",
+            "19-Oct-1977",
+            "26-Oct-1951"
+        ],
+        "age": [
+            53,
+            50,
+            37,
+            51,
+            30,
+            56
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "80"
+    },
+    "81": {
+        "names": [
+            "Danny Boyle",
+            "Stephen Daldry",
+            "David Fincher",
+            "Ron Howard",
+            "Gus Van Sant"
+        ],
+        "movie": [
+            "Slumdog Millionaire",
+            "The Reader",
+            "The Curious Case of Benjamin Button",
+            "Frost/Nixon",
+            "Milk"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "20-Oct-1956",
+            "2-May-1961",
+            "28-Aug-1962",
+            "1-Mar-1954",
+            "24-Jul-1952"
+        ],
+        "age": [
+            52,
+            47,
+            46,
+            54,
+            56
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Bisexual",
+            "Straight",
+            "Straight",
+            "Gay"
+        ],
+        "CeremonyNum": "81"
+    },
+    "82": {
+        "names": [
+            "Kathryn Bigelow",
+            "James Cameron",
+            "Lee Daniels",
+            "Jason Reitman",
+            "Quentin Tarantino"
+        ],
+        "movie": [
+            "The Hurt Locker",
+            "Avatar",
+            "Precious",
+            "Up in the Air",
+            "Inglourious Basterds"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "Black",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Female",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "27-Nov-1951",
+            "16-Aug-1954",
+            "24-Dec-1959",
+            "19-Oct-1977",
+            "27-Mar-1963"
+        ],
+        "age": [
+            58,
+            55,
+            50,
+            32,
+            46
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Gay",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "82"
+    },
+    "83": {
+        "names": [
+            "Tom Hooper",
+            "Darren Aronofsky",
+            "Joel Coen",
+            "Ethan Coen",
+            "David Fincher",
+            "David O. Russell"
+        ],
+        "movie": [
+            "The King's Speech",
+            "Black Swan",
+            "True Grit",
+            "True Grit",
+            "The Social Network",
+            "The Fighter"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "5-Oct-1972",
+            "12-Feb-1969",
+            "29-Nov-1954",
+            "21-Sep-1957",
+            "28-Aug-1962",
+            "20-Aug-1958"
+        ],
+        "age": [
+            38,
+            41,
+            56,
+            53,
+            48,
+            52
+        ],
+        "sexual orientation": [
+            "Na",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "83"
+    },
+    "84": {
+        "names": [
+            "Michel Hazanavicius",
+            "Woody Allen",
+            "Terrence Malick",
+            "Alexander Payne",
+            "Martin Scorsese"
+        ],
+        "movie": [
+            "The Artist",
+            "Midnight in Paris",
+            "The Tree of Life",
+            "The Descendants",
+            "Hugo"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "Asian",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "29-Mar-1967",
+            "1-Dec-1935",
+            "30-Nov-1943",
+            "23-Oct-1954",
+            "17-Nov-1942"
+        ],
+        "age": [
+            44,
+            76,
+            68,
+            57,
+            69
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "84"
+    },
+    "85": {
+        "names": [
+            "Ang Lee",
+            "Michael Haneke",
+            "David O. Russell",
+            "Steven Spielberg",
+            "Benh Zeitlin"
+        ],
+        "movie": [
+            "Life of Pi",
+            "Amour",
+            "Silver Linings Playbook",
+            "Lincoln",
+            "Beasts of the Southern Wild"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Asian",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "23-Oct-1954",
+            "23-Mar-1942",
+            "20-Aug-1958",
+            "18-Dec-1946",
+            "14-Oct-1982"
+        ],
+        "age": [
+            58,
+            70,
+            54,
+            66,
+            30
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "85"
+    },
+    "86": {
+        "names": [
+            "Alfonso Cuar\u00f3n",
+            "Steve McQueen",
+            "Alexander Payne",
+            "David O. Russell",
+            "Martin Scorsese"
+        ],
+        "movie": [
+            "Gravity",
+            "12 Years a Slave",
+            "Nebraska",
+            "American Hustle",
+            "The Wolf of Wall Street"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Hispanic",
+            "Black",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "28-Nov-1961",
+            "9-Oct-1969",
+            "10-Feb-1961",
+            "20-Aug-1958",
+            "17-Nov-1942"
+        ],
+        "age": [
+            52,
+            44,
+            52,
+            55,
+            71
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "86"
+    },
+    "87": {
+        "names": [
+            "Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu",
+            "Wes Anderson",
+            "Richard Linklater",
+            "Bennett Miller",
+            "Morten Tyldum"
+        ],
+        "movie": [
+            "Birdman",
+            "The Grand Budapest Hotel",
+            "Boyhood",
+            "Foxcatcher",
+            "The Imitation Game"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Hispanic",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "15-Aug-1963",
+            "1-May-1969",
+            "30-Jul-1960",
+            "30-Dec-1966",
+            "19-May-1967"
+        ],
+        "age": [
+            51,
+            45,
+            54,
+            48,
+            47
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Na"
+        ],
+        "CeremonyNum": "87"
+    },
+    "88": {
+        "names": [
+            "Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu",
+            "Lenny Abrahamson",
+            "Tom McCarthy",
+            "Adam McKay",
+            "George Miller"
+        ],
+        "movie": [
+            "The Revenant",
+            "Room",
+            "Spotlight",
+            "The Big Short",
+            "Mad Max: Fury Road"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Hispanic",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "15-Aug-1963",
+            "30-Nov-1966",
+            "7-Jun-1966",
+            "17-Apr-1968",
+            "3-Mar-1945"
+        ],
+        "age": [
+            52,
+            49,
+            49,
+            47,
+            70
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Na",
+            "Na",
+            "Na",
+            "Na"
+        ],
+        "CeremonyNum": "88"
+    },
+    "89": {
+        "names": [
+            "Damien Chazelle",
+            "Mel Gibson",
+            "Barry Jenkins",
+            "Kenneth Lonergan",
+            "Denis Villeneuve"
+        ],
+        "movie": [
+            "La La Land",
+            "Hacksaw Ridge",
+            "Moonlight",
+            "Manchester by the Sea",
+            "Arrival"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "Black",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "19-Jan-1985",
+            "3-Jan-1956",
+            "19-Nov-1979",
+            "16-Oct-1962",
+            "3-Oct-1967"
+        ],
+        "age": [
+            31,
+            60,
+            37,
+            54,
+            49
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Na",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "89"
+    },
+    "90": {
+        "names": [
+            "Guillermo del Toro",
+            "Paul Thomas Anderson",
+            "Greta Gerwig",
+            "Christopher Nolan",
+            "Jordan Peele"
+        ],
+        "movie": [
+            "The Shape of Water",
+            "Phantom Thread",
+            "Lady Bird",
+            "Dunkirk",
+            "Get Out"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Hispanic",
+            "White",
+            "White",
+            "White",
+            "Black"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Female",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "9-Oct-1964",
+            "26-Jun-1970",
+            "4-Aug-1983",
+            "30-Jul-1970",
+            "21-Feb-1979"
+        ],
+        "age": [
+            53,
+            47,
+            34,
+            47,
+            38
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "90"
+    },
+    "91": {
+        "names": [
+            "Alfonso Cuar\u00f3n",
+            "Yorgos Lanthimos",
+            "Spike Lee",
+            "Adam McKay",
+            "Pawe\u0142 Pawlikowski"
+        ],
+        "movie": [
+            "Roma",
+            "The Favourite",
+            "BlacKkKlansman",
+            "Vice",
+            "Cold War"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Hispanic",
+            "White",
+            "Black",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "28-Nov-1961",
+            "23-Sep-1973",
+            "20-Mar-1957",
+            "17-Apr-1968",
+            "15-Sep-1957"
+        ],
+        "age": [
+            57,
+            45,
+            61,
+            50,
+            61
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Na",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "91"
+    },
+    "92": {
+        "names": [
+            "Bong Joon-ho",
+            "Sam Mendes",
+            "Todd Phillips",
+            "Martin Scorsese",
+            "Quentin Tarantino"
+        ],
+        "movie": [
+            "Parasite",
+            "1917",
+            "Joker",
+            "The Irishman",
+            "Once Upon a Time in Hollywood"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Asian",
+            "White",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Male",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "14-Sep-1969",
+            "1-Aug-1965",
+            "20-Dec-1970",
+            "17-Nov-1942",
+            "27-Mar-1963"
+        ],
+        "age": [
+            50,
+            54,
+            49,
+            77,
+            56
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "92"
+    },
+    "93": {
+        "names": [
+            "Chlo\u00e9 Zhao",
+            "Lee Isaac Chung",
+            "Emerald Fennell",
+            "David Fincher",
+            "Thomas Vinterberg"
+        ],
+        "movie": [
+            "Nomadland",
+            "Minari",
+            "Promising Young Woman",
+            "Mank",
+            "Another Round"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "Asian",
+            "Asian",
+            "White",
+            "White",
+            "White"
+        ],
+        "gender": [
+            "Female",
+            "Male",
+            "Female",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "9-Jun-1982",
+            "19-Oct-1978",
+            "1-Oct-1985",
+            "28-Aug-1962",
+            "19-May-1969"
+        ],
+        "age": [
+            38,
+            42,
+            35,
+            58,
+            51
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight",
+            "Straight"
+        ],
+        "CeremonyNum": "93"
+    },
+    "94": {
+        "names": [
+            "Jane Campion",
+            "Paul Thomas Anderson",
+            "Kenneth Branagh",
+            "Ryusuke Hamaguchi",
+            "Steven Spielberg"
+        ],
+        "movie": [
+            "The Power of the Dog",
+            "Licorice Pizza",
+            "Belfast",
+            "Drive My Car",
+            "West Side Story"
+        ],
+        "win": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "ethnicity": [
+            "White",
+            "White",
+            "White",
+            "Asian",
+            "White"
+        ],
+        "gender": [
+            "Female",
+            "Male",
+            "Male",
+            "Male",
+            "Male"
+        ],
+        "date of birth": [
+            "30-Apr-1954",
+            "26-Jun-1970",
+            "10-Dec-1960",
+            "16-Dec-1978",
+            "18-Dec-1946"
+        ],
+        "age": [
+            67,
+            51,
+            61,
+            43,
+            75
+        ],
+        "sexual orientation": [
+            "Straight",
+            "Straight",
+            "Straight",
+            "Na",
+            "Straight"
+        ],
+        "CeremonyNum": "94"
+    }
+}

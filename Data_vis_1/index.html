@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Oscars Best Director Nomination Age Heatmap</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+  <!-- Load d3.js -->
+  <script src="https://d3js.org/d3.v6.js"></script>
+
+</head>
+
+<body>
+  <!-- <main> -->
+
+  <div class="container">
+    <h1>Demographics of Oscars Best Director Nominees</h1>
+    <h2> Demographics of Oscars Academy Award Best Director Nominees from the 1st award
+      ceremony in 1927 to the 94th in 2022</h2>
+
+    <div class="xlabel">Ceremony #</div>
+
+    <!-- Initialize a select button -->
+    <select id="selectButton"></select>
+
+    <!-- Create a div where the graph will take place -->
+    <div id="color_key"></div>
+    <div id="my_dataviz"></div>
+  </div>
+  <!-- </main> -->
+
+  <script src="winner.js"></script>
+  <script src="ethnicity.js"></script>
+  <script src="gender.js"></script>
+  <script src="age.js"></script>
+  <script src="sketch.js"></script>
+  <script>
+    var groups = ["Age", "Gender", "Ethnicity", "Winner"]
+
+    // add the options to the button
+    d3.select("#selectButton")
+      .selectAll('myOptions')
+      .data(groups)
+      .enter()
+      .append('option')
+      .text(function (d) { return d; }) // text showed in the menu
+      .attr("value", function (d) { return d; }) // corresponding value returned by the button
+
+    // A function that update the chart
+    //HOW TO MAKE THIS WORK?
+    function update(selectedGroup) {
+      currentGraph = selectedGroup;
+      switchGraph();
+    }
+
+    // When the button is changed, run the updateChart function
+    d3.select("#selectButton").on("change", function (event, d) {
+      // recover the option that has been chosen
+      const selectedOption = d3.select(this).property("value")
+      // run the updateChart function with this selected option
+      update(selectedOption)
+    })
+
+  </script>
+</body>
+
+</html>
