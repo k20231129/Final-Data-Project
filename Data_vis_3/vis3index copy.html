@@ -1,0 +1,113 @@
+<!-- pie chart -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v6.js"></script>
+
+<!-- Add 2 buttons -->
+<button onclick="update(nominee_gender)">Gender Data</button>
+<button onclick="update(nominee_ethnicity)">Ethnicity Data</button>
+<button onclick="update(nominee_sexuality)">Sexual Orientation Data</button>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+<script>
+
+// set the dimensions and margins of the graph
+const width = 450,
+    height = 450,
+    margin = 40;
+
+// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+const radius = Math.min(width, height) / 2 - margin;
+
+// append the svg object to the div called 'my_dataviz'
+const svg = d3.select("#my_dataviz")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+    .attr("transform", `translate(${width/2}, ${height/2})`);
+
+// create 2 data_set
+const nominee_gender = {male: 460, female: 8}
+const nominee_ethnicity = {white: 442, asian: 13, black: 6, hispanic: 7}
+const nominee_sexuality = {straight: 405, bisexual: 12, gay: 18, na: 33}
+
+// set the color scale
+const color = d3.scaleOrdinal()
+    .domain(["male", "female", "white", "asian", "black", "Hispanic", "straight", "bisexual", "gay", "na"])
+    // .range(d3.schemeBlues);
+    // .range(d3.schemeAccent);
+    .range(["rgb(69,87,149)", "rgb(213,181, 219)", 
+    // "rgb(250,231,250)", "rgb(234,174,212", "rgb(219,123,159)", "rgb(198,79,99)",
+    "rgb(250,231,250)", "rgb(234,174,212", "rgb(198,79,99)", "rgb(219,123,159)",
+// "rgb(165,38,43",
+    "rgb(220,148,168)", "rgb(154,90,128)", "rgb(99,60,105)", "rgb(50,36,79)", "rgb(220,148,168)", "rgb(0,19,51)"])
+// "rgb(255,231,255)"
+// "rgb(193,183,208)"
+
+// "rgb(69,87,149)"
+
+// A function that create / update the plot for a given variable:
+function update(data) {
+
+    // Compute the position of each group on the pie:
+    const pie = d3.pie()
+    .value(function(d) {return d[1]; })
+    .sort(function(a, b) { return d3.ascending(a.key, b.key);} ) // This make sure that group order remains the same in the pie chart
+    const data_ready = pie(Object.entries(data))
+
+    // map to data
+    const u = svg.selectAll("path")
+    .data(data_ready)
+
+    
+    // // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+    // u
+    // .join('path')
+    // .transition()
+    // .duration(1000)
+    // .attr('d', d3.arc()
+    //     .innerRadius(0)
+    //     .outerRadius(radius)
+    // )
+    // .attr('fill', function(d){ return(color(d.data[0])) })
+    // .attr("stroke", "white")
+    // .style("stroke-width", "2px")
+    // .style("opacity", 1)
+
+
+    // shape helper to build arcs:
+    const arcGenerator = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius)
+    
+    // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+    svg
+        .selectAll('mySlices')
+        .data(data_ready)
+        .join('path')
+            .attr('d', arcGenerator)
+            .attr('fill', function(d){ return(color(d.data[0])) })
+            .attr("stroke", "black")
+            .style("stroke-width", "2px")
+            .style("opacity", 0.7)
+
+    // Now add the annotation. Use the centroid method to get the best coordinates
+    svg
+        .selectAll('mySlices')
+        .data(data_ready)
+        .join('text')
+        .text(function(d){ return "grp " + d.data[0]})
+        .attr("transform", function(d) { return `translate(${arcGenerator.centroid(d)})`})
+        .style("text-anchor", "middle")
+        .style("font-size", 17)
+}
+
+// Initialize the plot with the first dataset
+update(nominee_gender)
+//how to get previous data to disappear?
+</script>
