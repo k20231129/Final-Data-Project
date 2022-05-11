@@ -1,113 +1,139 @@
 <!-- pie chart -->
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html lang="en">
 
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v6.js"></script>
+</html>
 
-<!-- Add 2 buttons -->
-<button onclick="update(nominee_gender)">Gender Data</button>
-<button onclick="update(nominee_ethnicity)">Ethnicity Data</button>
-<button onclick="update(nominee_sexuality)">Sexual Orientation Data</button>
+<head>
+  <title>Pie Charts of Demographics of Oscars Best Director Nominees</title>
+
+  <!-- Load d3.js -->
+  <script src="https://d3js.org/d3.v6.js"></script>
+  <link rel="stylesheet" type="text/css" href="vis3style copy.css">
+  <meta charset="utf-8">
+
+  <!-- Create a div where the graph will take place -->
+  <div id="my_dataviz"></div>
+</head>
+
 
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
 
-<script>
+<body>
+  <!-- <main> -->
 
-// set the dimensions and margins of the graph
-const width = 450,
-    height = 450,
-    margin = 40;
+  <div class="container">
+    <h1>Pie Charts of Demographics of Oscars Best Director Nominees</h1>
+    <h2>Demographics of Non-white Oscars Academy Award Best Director Nominees from the 1st award
+      ceremony in 1927 to the 94th in 2022</h2>
+    <btn>
+      <!-- Add buttons -->
+      <button onclick="update(nominee_gender)">Gender Data</button>
+      <button onclick="update(nominee_ethnicity)">Ethnicity Data</button>
+      <button onclick="update(nominee_sexuality)">Sexual Orientation Data</button>
+    </btn>
 
-// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
-const radius = Math.min(width, height) / 2 - margin;
+    <script>
 
-// append the svg object to the div called 'my_dataviz'
-const svg = d3.select("#my_dataviz")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .append("g")
-    .attr("transform", `translate(${width/2}, ${height/2})`);
+      // set the dimensions and margins of the graph
+      const width = 450,
+        height = 450,
+        margin = 40;
 
-// create 2 data_set
-const nominee_gender = {male: 460, female: 8}
-const nominee_ethnicity = {white: 442, asian: 13, black: 6, hispanic: 7}
-const nominee_sexuality = {straight: 405, bisexual: 12, gay: 18, na: 33}
+      // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+      const radius = Math.min(width, height) / 2 - margin;
 
-// set the color scale
-const color = d3.scaleOrdinal()
-    .domain(["male", "female", "white", "asian", "black", "Hispanic", "straight", "bisexual", "gay", "na"])
-    // .range(d3.schemeBlues);
-    // .range(d3.schemeAccent);
-    .range(["rgb(69,87,149)", "rgb(213,181, 219)", 
-    // "rgb(250,231,250)", "rgb(234,174,212", "rgb(219,123,159)", "rgb(198,79,99)",
-    "rgb(250,231,250)", "rgb(234,174,212", "rgb(198,79,99)", "rgb(219,123,159)",
-// "rgb(165,38,43",
-    "rgb(220,148,168)", "rgb(154,90,128)", "rgb(99,60,105)", "rgb(50,36,79)", "rgb(220,148,168)", "rgb(0,19,51)"])
-// "rgb(255,231,255)"
-// "rgb(193,183,208)"
+      // append the svg object to the div called 'my_dataviz'
+      var svg = d3.select("#my_dataviz")
+        .append("svg")
+        .attr("class", "chart")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
+        .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-// "rgb(69,87,149)"
+      // create 2 data_set
+      const nominee_gender = { male: 460, female: 8 }
+      const nominee_ethnicity = { white: 442, asian: 13, black: 6, hispanic: 7 }
+      const nominee_sexuality = { straight: 405, bisexual: 12, gay: 18, na: 33 }
 
-// A function that create / update the plot for a given variable:
-function update(data) {
+      // set the color scale
+      const color = d3.scaleOrdinal()
+        .domain(["male", "female", "white", "asian", "black", "Hispanic", "straight", "bisexual", "gay", "na"])
+        // .range(d3.schemeBlues);
+        // .range(d3.schemeAccent);
+        .range(["rgb(69,87,149)", "rgb(213,181, 219)",
+          // "rgb(250,231,250)", "rgb(234,174,212", "rgb(219,123,159)", "rgb(198,79,99)",
+          "rgb(250,231,250)", "rgb(234,174,212", "rgb(198,79,99)", "rgb(219,123,159)",
+          // "rgb(165,38,43",
+          "rgb(220,148,168)", "rgb(154,90,128)", "rgb(99,60,105)", "rgb(50,36,79)", "rgb(220,148,168)", "rgb(0,19,51)"])
 
-    // Compute the position of each group on the pie:
-    const pie = d3.pie()
-    .value(function(d) {return d[1]; })
-    .sort(function(a, b) { return d3.ascending(a.key, b.key);} ) // This make sure that group order remains the same in the pie chart
-    const data_ready = pie(Object.entries(data))
-
-    // map to data
-    const u = svg.selectAll("path")
-    .data(data_ready)
-
-    
-    // // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
-    // u
-    // .join('path')
-    // .transition()
-    // .duration(1000)
-    // .attr('d', d3.arc()
-    //     .innerRadius(0)
-    //     .outerRadius(radius)
-    // )
-    // .attr('fill', function(d){ return(color(d.data[0])) })
-    // .attr("stroke", "white")
-    // .style("stroke-width", "2px")
-    // .style("opacity", 1)
+      tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
 
 
-    // shape helper to build arcs:
-    const arcGenerator = d3.arc()
-        .innerRadius(0)
-        .outerRadius(radius)
-    
-    // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
-    svg
-        .selectAll('mySlices')
-        .data(data_ready)
-        .join('path')
-            .attr('d', arcGenerator)
-            .attr('fill', function(d){ return(color(d.data[0])) })
-            .attr("stroke", "black")
-            .style("stroke-width", "2px")
-            .style("opacity", 0.7)
+      // A function that create / update the plot for a given variable:
+      function update(data) {
 
-    // Now add the annotation. Use the centroid method to get the best coordinates
-    svg
-        .selectAll('mySlices')
-        .data(data_ready)
-        .join('text')
-        .text(function(d){ return "grp " + d.data[0]})
-        .attr("transform", function(d) { return `translate(${arcGenerator.centroid(d)})`})
-        .style("text-anchor", "middle")
-        .style("font-size", 17)
-}
+        // Compute the position of each group on the pie:
+        const pie = d3.pie()
+          .value(function (d) { return d[1]; })
+          .sort(function (a, b) { return d3.ascending(a.key, b.key); }) // This make sure that group order remains the same in the pie chart
+        const data_ready = pie(Object.entries(data))
 
-// Initialize the plot with the first dataset
-update(nominee_gender)
-//how to get previous data to disappear?
-</script>
+        // map to data
+        const u = svg.selectAll("path")
+          .data(data_ready)
+
+        // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+        u
+          .join('path')
+          .on('mouseenter', function (evt, d) {
+            d3.select(this).attr('opacity', 1)
+            d3.select(this).attr("stroke", "white")
+            d3.select(this).attr("filter", "brightness(150%")
+            
+            //Makes div appear
+            tooltip.transition()
+              .duration(100)
+              .style("opacity", 1);
+          })
+          .on('mousemove', function (evt, d) {
+            d3.select(this).attr("stroke", "white")
+            tooltip.html(((d.value / 468) * 100).toFixed(2) + "% " + d.data[0])
+              // .style("left", (d3.pointer(event)[0] + 120) + "px")
+              // .style("top", (d3.pointer(event)[1] - 30) + "px")
+              .style("left", (event.clientX + 20) + "px")
+              .style("top", (event.clientY - 15) + "px");
+          })
+          .on('mouseleave', function (d) {
+            d3.select(this).attr("stroke", "none")
+            d3.select(this).attr('opacity', .9)
+            d3.select(this).attr("filter", "brightness(100%")
+            //makes div disappear
+            tooltip.transition()
+              .duration('200')
+              .style("opacity", 0);
+          })
+          .transition()
+          .duration(1000)
+          .attr('d', d3.arc()
+            .innerRadius(0)
+            .outerRadius(radius)
+          )
+          .attr('fill', function (d) { return (color(d.data[0])) })
+          .attr("stroke", "none")
+          .style("stroke-width", "2px")
+
+      }
+
+      // Initialize the plot with the first dataset
+      update(nominee_gender)
+
+    </script>
+</body>
+
+
+</html>

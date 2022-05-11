@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"></html>
 
-
+<!-- ADD OPACITY CHANGE -->
 <head>
     <title>Percentage of Non-white Oscars Best Director Nominees</title>
 
@@ -26,7 +26,7 @@
 
     // set the dimensions and margins of the graph
     const margin = {top: 150, right: 50, bottom: 30, left: 100},
-            width = 1000 - margin.left - margin.right,
+            width = 1050 - margin.left - margin.right,
             height = 600 - margin.top - margin.bottom;
     
     // append the svg object to the body of the page
@@ -68,11 +68,13 @@
         var mouseover = function(d) {
             tooltip
             .style("opacity", 1)
+            d3.select(this).attr("stroke", "black")
+            d3.select(this).attr('opacity', .2)
         }
 
         var mousemove = function(d, i) {
             tooltip
-            .html(i['Percentage of Non-white Nominees'] + "% in Ceremony #" + i.CeremonyNum)
+            .html(Math.round(i['Percentage of Non-white Nominees'])+"% in Ceremony #" + i.CeremonyNum)
             // .html("The percentage of non-white nominees in Ceremony " + i.CeremonyNum + " is " + i['Percentage of Non-white Nominees'] + "%")
             .style("left", (d3.pointer(event)[0]+30) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
             .style("top", (d3.pointer(event)[1] + 80) + "px")
@@ -82,8 +84,10 @@
         var mouseleave = function(d) {
             tooltip
             .transition()
-            .duration(200)
-            .style("opacity", 0)
+                .duration(200)
+                .style("opacity", 0)
+            d3.select(this).attr("stroke", "none")
+            d3.select(this).attr('opacity', 1)
         }
             
         // Add dots
@@ -93,7 +97,7 @@
         .join("circle")
             .attr("cx", function (d) { return x(d.CeremonyNum); } )
             .attr("cy", function (d) { return y(d['Percentage of Non-white Nominees']); } )
-            .attr("r", 3)
+            .attr("r", 4)
             // .style("fill", "#800020")
             .style("fill", "#cbac56")
         .on("mouseover", mouseover )

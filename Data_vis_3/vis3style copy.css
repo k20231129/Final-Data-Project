@@ -1,25 +1,27 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 canvas {
   display: block;
+  
 }
 
 div.tooltip {
 
   /* position: absolute;
-    text-align: left;
-    padding: .6rem;
-    background: #313639;
-    color: #f9f9f9;
-    border: 0px;
-    border-radius: 5px;
-    pointer-events: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
-    white-space: pre;
-    z-index: 100; */
+  text-align: left;
+  padding: .6rem;
+  background: #313639;
+  color: #f9f9f9;
+  border: 0px;
+  border-radius: 5px;
+  pointer-events: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  white-space: pre;
+  z-index: 100; */
 
   position: absolute;
   text-align: left;
@@ -36,12 +38,14 @@ div.tooltip {
 
 }
 .container {
+  color: white;
   position: absolute;
   left: 40px;
   top: 20px;
 }
 
 .container h1 {
+  color: white;
   font-family:"Courier New";
   font-size: 30px;
   font-weight: bold;
@@ -51,6 +55,7 @@ div.tooltip {
 }
 
 .container h2 {
+  color: white;
   font-family:"Courier New";
   font-size: 17px;
   font-weight:100;
@@ -72,8 +77,14 @@ div.tooltip {
   position: relative;
   left: 40px;
   top: 170px;
+  opacity: .9;
+  filter:saturate(1)
 }
 
 button{
   font-family:"Courier New";
+  background-color: #313639;
+  color: white;
+  border: solid;
+  border-radius: 2px;
 }
