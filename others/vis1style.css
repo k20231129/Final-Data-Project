@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
+  div.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: .2rem;
+    background: #313639;
+    color: #f9f9f9;
+    border: 0px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    white-space: pre;
+    z-index: 100;
+}
+
+.xlabel{
+  position: fixed;
+  text-align: center;
+  top: 495px;
+  left: 25%;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.colorSvg{
+  position: fixed;
+  top: 170px;
+  left: 0px;
+}
+
+.SvgAge{
+  position: absolute;
+  top: 175px;
+  left: 0px;
+} 
+
+.SvgChart{
+  position: absolute;
+  top: 195px;
+  left: 40px;
+} 
+
+.titleLabel{
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  position: fixed;
+}
+
+.keyLabel{
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  position: fixed;
+}
+
+.key{
+  position: fixed; 
+  left: 0; right: 0; top: auto; bottom:0;
+}
+
+#whiteLabel{
+  position: fixed;
+  left: 120px;
+  top: 26px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+#selectButton{
+  position: fixed;
+  left: 50px;
+  top: 125px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  /* padding: 80px; */
+}
+
+.container h1 {
+  font-family:"Courier New";
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  top: 15px;
+}
+
+.container h2 {
+  font-family:"Courier New";
+  font-size: 17px;
+  font-weight:100;
+  position: fixed;
+  top: 70px;
+
+}
+
+.hidden{
+  display: none;
+}
+

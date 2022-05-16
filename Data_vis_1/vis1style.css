@@ -1,10 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 1700px;
   }
-  canvas {
+  /* canvas {
     display: block;
-  }
+  } */
   
   div.tooltip {
     position: absolute;
@@ -22,31 +23,50 @@ html, body {
 }
 
 .xlabel{
-  position: fixed;
+  position: absolute;
   text-align: center;
-  top: 495px;
-  left: 25%;
+  top: 750px;
+  /* left: 50%; */
   margin: auto;
   width: 50%;
   padding: 10px;
   font-family: 'Courier New', Courier, monospace;
 }
 
+.hFixed{
+  position: absolute;
+  width: 1300px;
+  height: 100px;
+}
+
 .colorSvg{
-  position: fixed;
-  top: 170px;
+  position: absolute;
+  top: 400px;
+  left: -45px;
+}
+
+.colorSvgWin{
+  position: absolute;
+  top: 430px;
   left: 0px;
+}
+
+#selectButton{
+  position: absolute;
+  top: 365px;
+  left: 5px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .SvgAge{
   position: absolute;
-  top: 175px;
+  top: 440px;
   left: 0px;
 } 
 
 .SvgChart{
   position: absolute;
-  top: 195px;
+  top: 460px;
   left: 40px;
 } 
 
@@ -54,17 +74,20 @@ html, body {
   font-size: small;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  position: fixed;
+  /* position: fixed; */
+  /* position: relative; */
 }
 
 .keyLabel{
   font-size: small;
   font-family: 'Courier New', Courier, monospace;
-  position: fixed;
+  /* position: fixed; */
+  position: relative;
 }
 
 .key{
-  position: fixed; 
+  position: relative;
+  /* position: fixed;  */
   left: 0; right: 0; top: auto; bottom:0;
 }
 
@@ -73,14 +96,6 @@ html, body {
   left: 120px;
   top: 26px;
   font-family: 'Courier New', Courier, monospace;
-  
-}
-#selectButton{
-  position: fixed;
-  left: 50px;
-  top: 125px;
-  font-family: 'Courier New', Courier, monospace;
-
 }
 
 .container {
@@ -93,21 +108,207 @@ html, body {
 .container h1 {
   font-family:"Courier New";
   font-size: 30px;
-  font-weight: bold;
-  position: fixed;
-  top: 15px;
+  /* font-weight: bold; */
+  font-weight: 900;
+  position: absolute;
+  top: 20px;
 }
 
 .container h2 {
   font-family:"Courier New";
-  font-size: 17px;
-  font-weight:100;
-  position: fixed;
-  top: 70px;
+  font-size: 20px;
+  font-weight:400;
+  position: absolute;
+  /* position: relative; */
+  top: 75px;
 
 }
+
+.container p1{
+  position: absolute;
+  font-size: 16px;
+  top: 140px; 
+  left: 0px;
+  width: 1350px;
+  font-family:'Courier New', Courier, monospace
+}
+.container p2{
+  position: absolute;
+  top: 190px;
+  left: 0px;
+  width: 1350px;
+  font-family:"Courier New";
+}
+.container p3{
+  position: absolute;
+  top: 280px;
+  left: 0px;
+  width: 1350px;
+  font-family:"Courier New";
+}
+.container p4{
+  position: absolute;
+  top: 810px;
+  left: 0px;
+  width: 1350px;
+  font-family:"Courier New";
+}
+.container p5{
+  position: absolute;
+  top: 900px;
+  left: 0px;
+  width: 1350px;
+  font-family:"Courier New";
+}
+.container p6{
+  position: absolute;
+  top: 1000px;
+  left: 530px;
+  width: 805px;
+  font-family:"Courier New";
+}
+.container p7{
+  position: absolute;
+  top: 1070px;
+  left: 530px;
+  width: 805px;
+  font-family:"Courier New";
+}
+.container p8{
+  position: absolute;
+  top: 1180px;
+  left: 530px;
+  width: 805px;
+  font-family:"Courier New";
+}
+.container p9{
+  position: absolute;
+  top: 1290px;
+  left: 530px;
+  width: 805px;
+  font-family:"Courier New";
+}
+.container p10{
+  position: absolute;
+  top: 1345px;
+  left: 530px;
+  width: 805px;
+  font-family:"Courier New";
+}
+
 
 .hidden{
   display: none;
 }
 
+#backBtn{
+  position: relative;
+  top: 5px;
+  font-family:"Courier New";
+}
+
+#nextBtn1{
+  position: relative;
+  top: 5px;
+  left: 1200px;
+  font-family:"Courier New";
+}
+
+#nextBtn2{
+  position: relative;
+  top: 1500px;
+  left: 1150px;
+  font-family:"Courier New";
+}
+
+/* reveal */
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/* Vis 3 */
+div.tooltipV3 {
+  position: absolute;
+  text-align: left;
+  padding: .6rem;
+  background: white;
+  color: black;
+  border: solid;
+  border-radius: 5px;
+  pointer-events: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  white-space: pre;
+  z-index: 100;
+}
+
+#my_dataviz3{
+  position: relative;
+  top: 1020px;
+  left: 50px;
+  background-color: black;
+  height: 550px;
+  width: 490px;
+}
+
+.chart{
+  position: relative;
+  left: 10px;
+  top: 70px;
+  opacity: .9;
+  filter:saturate(.8);
+}
+
+button{
+  font-family:"Courier New";
+  background-color: #313639;
+  color: white;
+  border: solid;
+  border-radius: 2px;
+  padding: 8px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  position: relative;
+  top: 500px;
+  left: 70px;
+  z-index: 100;
+}
+
+button:hover{
+  opacity: .6;
+  /* color: white; */
+  z-index: 100;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.button{
+  position: relative;
+  font-family:"Courier New";
+  /* background-color: #313639; */
+  color: black;
+  /* color: white; */
+  border: solid;
+  border-radius: 2px;
+  padding: 7px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  z-index: 100;
+}
+
+.button:hover{
+  opacity: .6;
+  /* color: white; */
+  z-index: 100;
+}

@@ -1,10 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 1150px;
   }
-  canvas {
+  /* canvas {
     display: block;
-  }
+  } */
   
 .tooltip {
   position: absolute;
@@ -30,15 +31,89 @@ html, body {
   font-family:"Courier New";
   font-size: 30px;
   font-weight: bold;
-  position: fixed;
-  top: 15px;
+  position: absolute;
+  width: 1000px;
+  top: 25px;
 }
 
 .container h2 {
   font-family:"Courier New";
+  font-size: 20px;
+  font-weight:100;
+  position: absolute;
+  width: 1400px;
+  top: 70px;
+}
+
+.container p1 {
+  font-family:"Courier New";
   font-size: 17px;
   font-weight:100;
-  position: fixed;
-  top: 70px;
+  position: absolute;
+  width: 900px;
+  top: 650px;
+  left: 70px;
+}
+.container p2 {
+  font-family:"Courier New";
+  font-size: 17px;
+  font-weight:100;
+  position: absolute;
+  width: 900px;
+  top: 705px;
+  left: 70px;
+}
+.container p3 {
+  font-family:"Courier New";
+  font-size: 17px;
+  font-weight:100;
+  position: absolute;
+  width: 900px;
+  top: 820px;
+  left: 70px;
+}
 
+
+#backBtn1{
+  position: relative;
+  top: 5px;
+  font-family:"Courier New";
+}
+
+#backBtn2{
+  position: relative;
+  top: 950px;
+  font-family:"Courier New";
+  left: -50px;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.button{
+  position: relative;
+  font-family:"Courier New";
+  /* background-color: #313639; */
+  color: black;
+  /* color: white; */
+  border: solid;
+  border-radius: 2px;
+  padding: 7px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  z-index: 100;
+}
+
+.button:hover{
+  opacity: .6;
+  /* color: white; */
+  z-index: 100;
 }

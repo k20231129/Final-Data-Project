@@ -8,21 +8,7 @@ canvas {
   
 }
 
-div.tooltip {
-
-  /* position: absolute;
-  text-align: left;
-  padding: .6rem;
-  background: #313639;
-  color: #f9f9f9;
-  border: 0px;
-  border-radius: 5px;
-  pointer-events: none;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
-  white-space: pre;
-  z-index: 100; */
-
+div.tooltipV3 {
   position: absolute;
   text-align: left;
   padding: .6rem;
@@ -78,7 +64,8 @@ div.tooltip {
   left: 40px;
   top: 170px;
   opacity: .9;
-  filter:saturate(1)
+  filter:saturate(.8);
+  /* stroke-width: .2px; */
 }
 
 button{
@@ -87,4 +74,18 @@ button{
   color: white;
   border: solid;
   border-radius: 2px;
+  padding: 8px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+
+button:hover{
+  opacity: .6;
+  /* color: white; */
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }

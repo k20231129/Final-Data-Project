@@ -1,0 +1,44 @@
+<!-- pie chart -->
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+  <title>Pie Charts of Demographics of Oscars Best Director Nominees</title>
+
+  <!-- Load d3.js -->
+  <script src="https://d3js.org/d3.v6.js"></script>
+  <link rel="stylesheet" type="text/css" href="vis3styleDark.css">
+  <meta charset="utf-8">
+
+  <!-- Create a div where the graph will take place -->
+  <div id="my_dataviz3"></div>
+</head>
+
+<body>
+  <!-- <main> -->
+
+  <div class="container">
+    <h1>Pie Charts of Demographics of Oscars Best Director Nominees</h1>
+    <h2>Demographics of Non-white Oscars Academy Award Best Director Nominees from the 1st award
+      ceremony in 1927 to the 94th in 2022</h2>
+    <btn>
+      <!-- Add buttons -->
+      <button id = "genderBtn" onclick="update(nominee_gender)">Gender Data</button>
+      <button id = "ethnicityBtn" onclick="update(nominee_ethnicity)">Ethnicity Data</button>
+      <button id = "sexualityBtn" onclick="update(nominee_sexuality)">Sexual Orientation Data</button>
+    </btn>
+
+    <script src="vis3sketch.js"></script>
+
+    <script>
+      initPieCharts()
+      
+      // Initialize the plot with the first dataset
+      update(nominee_gender)
+    </script>
+</body>
+
+
+</html>

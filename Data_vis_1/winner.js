@@ -14,7 +14,7 @@ function initWinnerGraph(){
         .append('svg')
         .attr('width', 500)
         .attr('height', 50)
-        .attr('class', 'colorSvg hidden');
+        .attr('class', 'colorSvgWin hidden');
 
       color_svg_winner.append('rect')
         .attr('x', 65)
@@ -121,7 +121,7 @@ Gender: ${d.gender[index]}
 Ethnicity: ${d.ethnicity[index]}
 Sexual Orientation: ${d["sexual orientation"][index]}`)
         .style("left", (event.clientX + window.scrollX + 20) + "px")
-        .style("top", (event.clientY - 15) + "px");
+        .style("top", (event.clientY + window.scrollY - 15) + "px");
     }
     else{
         divWinner.html(
@@ -132,7 +132,7 @@ Gender: ${d.gender[index]}
 Ethnicity: ${d.ethnicity[index]}
 Sexual Orientation: ${d["sexual orientation"][index]}`)
           .style("left", (event.clientX + window.scrollX + 20) + "px")
-          .style("top", (event.clientY - 15) + "px");
+          .style("top", (event.clientY + window.scrollY - 15) + "px");
       }
       })
       

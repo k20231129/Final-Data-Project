@@ -130,7 +130,7 @@ Gender: ${d.gender[index]}
 Ethnicity: ${d.ethnicity[index]}
 Sexual Orientation: ${d["sexual orientation"][index]}`)
         .style("left", (event.clientX + window.scrollX + 20) + "px")
-        .style("top", (event.clientY - 15) + "px");
+        .style("top", (event.clientY+ window.scrollY  - 15) + "px");
     }
     else{
         divGender.html(
@@ -141,7 +141,7 @@ Gender: ${d.gender[index]}
 Ethnicity: ${d.ethnicity[index]}
 Sexual Orientation: ${d["sexual orientation"][index]}`)
           .style("left", (event.clientX + window.scrollX + 20) + "px")
-          .style("top", (event.clientY - 15) + "px");
+          .style("top", (event.clientY + window.scrollY - 15) + "px");
       }
       })
       

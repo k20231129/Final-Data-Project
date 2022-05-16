@@ -18,92 +18,17 @@
     <!-- <main> -->
   
     <div class="container">
+        <a class = "hFixed button" id = "backBtn1" href="../Data_vis_1/vis1index.html">go back</a>
+        <a class = "hFixed button" id = "backBtn2" href="../Data_vis_1/vis1index.html">go back</a>
       <h1>Percentage of Non-white Oscars Best Director Nominees</h1>
       <h2>Percentage of Non-white Oscars Academy Award Best Director Nominees from the 1st award
-        ceremony in 1927 to the 94th in 2022</h2>
-      </body>
+        ceremony to the 94th</h2>
+        <p1 class = "reveal">When looking at the demographics of the Oscars Best Director nominees throughout the years, one can in fact notice change——<strong>positive change.</strong></p1>
+            <p2 class = "reveal">The scatter plot above with the percentages of non-white nominees from the 1st ceremony to the most recent 94th shows just that: improvement. From the firm 0% for 37 years to the 20% in 2022 and 40% the year before, one can’t deny that——though slight and slow——<strong>in recent years, the prestigious, white-dominated Academy has been working towards an increase in diversity.</strong></p2>
+                <p3 class = "reveal">Perhaps, if these upward trends subsist, years from now, this dataset might look a lot more different—a lot more colorful. But until then, <strong>as of today, the film industry still remains a white-dominated industry.</strong></p3>
+    </div>
+</body>
+    <script src="vis2sketch.js"></script>
 <script>
-
-    // set the dimensions and margins of the graph
-    const margin = {top: 150, right: 50, bottom: 30, left: 100},
-            width = 1050 - margin.left - margin.right,
-            height = 600 - margin.top - margin.bottom;
-    
-    // append the svg object to the body of the page
-    const svg = d3.select("#my_dataviz")
-        .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`);
-    
-    //Read the data
-    // d3.json("percentage.json").then(function (data) {
-    d3.csv("NonWhitePercentage.csv").then( function(data) {
-        
-        // Add X axis
-        const x = d3.scaleLinear()
-        .domain([1, 100])
-        .range([0, width ]);
-        svg.append("g")
-        .attr("transform", `translate(0, ${height})`)
-        .call(d3.axisBottom(x));
-    
-        // Add Y axis
-        const y = d3.scaleLinear()
-        .domain([0, 100])
-        .range([ height, 0]);
-        svg.append("g")
-        .call(d3.axisLeft(y));
-        
-         // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
-        // Its opacity is set to 0: we don't see it by default.
-        var tooltip = d3.select("#my_dataviz")
-            .append("div")
-            .style("opacity", 0)
-            .attr("class", "tooltip")
-
-        // A function that change this tooltip when the user hover a point.
-        // Its opacity is set to 1: we can now see it. Plus it set the text and position of tooltip depending on the datapoint (d)
-        var mouseover = function(d) {
-            tooltip
-            .style("opacity", 1)
-            d3.select(this).attr("stroke", "black")
-            d3.select(this).attr('opacity', .2)
-        }
-
-        var mousemove = function(d, i) {
-            tooltip
-            .html(Math.round(i['Percentage of Non-white Nominees'])+"% in Ceremony #" + i.CeremonyNum)
-            // .html("The percentage of non-white nominees in Ceremony " + i.CeremonyNum + " is " + i['Percentage of Non-white Nominees'] + "%")
-            .style("left", (d3.pointer(event)[0]+30) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-            .style("top", (d3.pointer(event)[1] + 80) + "px")
-        }
-
-        // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
-        var mouseleave = function(d) {
-            tooltip
-            .transition()
-                .duration(200)
-                .style("opacity", 0)
-            d3.select(this).attr("stroke", "none")
-            d3.select(this).attr('opacity', 1)
-        }
-            
-        // Add dots
-        svg.append('g')
-        .selectAll("dot")
-        .data(data)
-        .join("circle")
-            .attr("cx", function (d) { return x(d.CeremonyNum); } )
-            .attr("cy", function (d) { return y(d['Percentage of Non-white Nominees']); } )
-            .attr("r", 4)
-            // .style("fill", "#800020")
-            .style("fill", "#cbac56")
-        .on("mouseover", mouseover )
-        .on("mousemove", mousemove )
-        .on("mouseleave", mouseleave )
-            
-    
-    })
+    initScatterPlot()
     </script>
