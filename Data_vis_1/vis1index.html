@@ -18,27 +18,18 @@
 <body>
   <!-- <main> -->
   <section>
-    <div class="container">
+    <div class="container1">
       <!-- STYLIZE BUTTON! -->
-      <a class = "hFixed button" id = "backBtn" href="../index.html">Back</a>
-      <a class = "button" id = "nextBtn1" href="../Data_vis_2/vis2index.html">next</a>
+      <a class = "button" id = "backBtn" href="../index.html">Back</a>
+      <a class = "button" id = "nextBtn1" href="../Data_vis_2/vis2index.html">Next</a>
+      <a class = "button" id = "nextBtn2" href="../Data_vis_2/vis2index.html">Next</a>
       <h1 class = "hFixed">Demographics of Oscars Best Director Nominees</h1>
       <h2 class = "hFixed"> Demographics of Oscars Academy Award Best Director Nominees from 1927 to 2022</h2>
       <p1 class = "hFixed">Each January, millions of people around the world turn their attention to the <strong>Oscars Academy Awards</strong>, waiting to find out who will be nominated to receive the highest honors in the filmmaking world. </p1>
        <p2 class = "hFixed">Though the Oscars is known to be the <strong>most prestigious film awards</strong>, when examining the demographics of the award nominees from the first ceremony in 1927 up to the most recent 94th ceremony in 2022, one can’t help but narrow their eyes. 
         Indeed, throughout the years, both the Oscars and the film industry have been described as an <em>“old white man’s club,” “a straight white man’s business,”</em> and more. Whether or not that is accurate will be for you to decide. </p2>
         <p3 class = "hFixed"><strong>The below data visualizations focus solely on the Academy Award for Best Director</strong> (officially known as the Academy Award of Merit for Directing), presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor a film director who has exhibited outstanding directing while working in the film industry. It is, in theory, <strong>the most prestigious honor any director can receive.</strong></p3>
-        
-        <p4 class = "hFixed reveal"><strong>The nominations are made by members of the AMPAS</strong>, generally by the members of the corresponding branch—meaning actors nominate actors, film editors nominate film editors, so forth. Anyone with feature film credits can apply to join AMPAS, but need to be approved by the branch’s executive committee as well as be submitted to the AMPAS board in order to be accepted into the Academy, and thus be able to both nominate and vote.<strong> As of 2022, there are more than 10,000 members of the AMPAS, with almost 9,500 eligible to vote.</strong></p4>
-          <p5 class = "hFixed reveal">The heatmaps above speak for themselves: the nominations are mostly made up of white males on the slightly older end. In fact, <strong>out of the 468 nominees for the best director award from 1927 till 2022</strong> (approximately 5 each year), the <strong>average nomination age was around 47-48 years old</strong>, with <strong>23 being the youngest age</strong> for a person to be nominated and <strong>79 being the oldest.</strong></p5>
-            
-            <p6 class = "reveal">The pie chart on the left brings the disproportion further into perspective. Out of the 468 nominees, <strong>460, which is 98.29% were male.</strong> That leaves <strong>only 1.71% female</strong>——a mere <strong>8 in 94 years.</strong></p6>
-              <p7 class = "reveal">Ethnicity-wise, the data doesn’t look much better. Out of the 468 nominees, <strong>442 (94.44%) were white.</strong> That means, out of all the 6 ethnic categories recognized by the US Census (white, black, Asian, Amerindian/Alaska native, native Hawaiian/Pacific Islander, and mixed ethnicity), <strong>only 26 nominees (5.56%) were people of color.</strong> That… is an unacceptably small number.</p7>
-                <p8 class = "reveal">As for sexual orientation, <strong>405 nominees (which is 86.54%) identified as straight.</strong> Though that might seem like a relatively lower percentage compared to the drastic imbalance seen above, that is chiefly due to the fact that there was no data on the sexual-orientation of 33 nominees, which makes up 7.05% of the total. This means that <strong>only 36 nominees (7.69% of total) were identified as non-heterosexual.</strong></p8>
-                  <p9 class = "reveal">When looking at the intersection of these data, it can be concluded that <strong>80.56% (377 out of 468 nominees) were “straight white males.”</strong></p9>
-                    <p10 class = "reveal">However, <strong>it isn’t enough to simply look at these general percentages.</strong> Yes, one cannot deny that these numbers are disheartening, but they by no means tell the whole story.</p10>
-      
-                    <a class = "button" id = "nextBtn2" href="../Data_vis_2/vis2index.html">next</a>
+          
       <!-- <div id ="header">Ceremony #</div> -->
       <div class = "xlabel hFixed">Ceremony #</div>
 
@@ -46,23 +37,33 @@
       <select id="selectButton"></select>
       
   
-    <!-- Create a div where the graph will take place -->
     <div class = "hFixed" id="color_key"></div>
+    <!-- Create a div where the graph will take place -->
     <div id="my_dataviz"></div>
-    
+
   </div>
+  <div class = "container2">
+    <p4 class = "hFixed reveal"><strong>The nominations are made by members of the AMPAS</strong>, generally by the members of the corresponding branch—meaning actors nominate actors, film editors nominate film editors, so forth. Anyone with feature film credits can apply to join AMPAS, but need to be approved by the branch’s executive committee as well as be submitted to the AMPAS board in order to be accepted into the Academy, and thus be able to both nominate and vote.<strong> As of 2022, there are more than 10,000 members of the AMPAS, with almost 9,500 eligible to vote.</strong></p4>
+      <p5 class = "hFixed reveal">The heatmaps above speak for themselves: the nominations are mostly made up of white males on the slightly older end. In fact, <strong>out of the 468 nominees for the best director award from 1927 till 2022</strong> (approximately 5 each year), the <strong>average nomination age was around 47-48 years old</strong>, with <strong>23 being the youngest age</strong> for a person to be nominated and <strong>79 being the oldest.</strong></p5>
+        
+        <p6 class = "reveal">The pie chart on the left brings the disproportion further into perspective. Out of the 468 nominees, <strong>460, which is 98.29% were male.</strong> That leaves <strong>only 1.71% female</strong>——a mere <strong>8 in 94 years.</strong></p6>
+          <p7 class = "reveal">Ethnicity-wise, the data doesn’t look much better. Out of the 468 nominees, <strong>442 (94.44%) were white.</strong> That means, out of all the 6 ethnic categories recognized by the US Census (white, black, Asian, Amerindian/Alaska native, native Hawaiian/Pacific Islander, and mixed ethnicity), <strong>only 26 nominees (5.56%) were people of color.</strong> That… is an unacceptably small number.</p7>
+            <p8 class = "reveal">As for sexual orientation, <strong>405 nominees (which is 86.54%) identified as straight.</strong> Though that might seem like a relatively lower percentage compared to the drastic imbalance seen above, that is chiefly due to the fact that there was no data on the sexual-orientation of 33 nominees, which makes up 7.05% of the total. This means that <strong>only 36 nominees (7.69% of total) were identified as non-heterosexual.</strong></p8>
+              <p9 class = "reveal">When looking at the intersection of these data, it can be concluded that <strong>80.56% (377 out of 468 nominees) were “straight white males.”</strong></p9>
+                <p10 class = "reveal">However, <strong>it isn’t enough to simply look at these general percentages.</strong> Yes, one cannot deny that these numbers are disheartening, but they by no means tell the whole story.</p10>
+  </div>
+  
 </section>
 
-<section>
-  <div class = "reveal" id="my_dataviz3"></div>
-
+<!-- <section> -->
+  <div class = "reveal my_dataviz3"></div>
+  
     <!-- Add buttons -->
-    <button id = "genderBtn" onclick="update3(nominee_gender)">Gender Data</button>
-    <button id = "ethnicityBtn" onclick="update3(nominee_ethnicity)">Ethnicity Data</button>
-    <button id = "sexualityBtn" onclick="update3(nominee_sexuality)">Sexual Orientation Data</button>
+    <button class = "chartBtn" id = "genderBtn" onclick="update3(nominee_gender)">Gender</button>
+    <button class = "chartBtn" id = "ethnicityBtn" onclick="update3(nominee_ethnicity)">Ethnicity</button>
+    <button class = "chartBtn" id = "sexualityBtn" onclick="update3(nominee_sexuality)">Sexual Orientation</button>
 
-
-</section>
+<!-- </section> -->
   <!-- </main> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="vis3sketch.js"></script>

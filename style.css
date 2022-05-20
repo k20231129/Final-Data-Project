@@ -1,22 +1,64 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
 
-#oscars{
-    position: absolute;
-    width: 700px;
-    /* left: 350px; */
-    left: 25%;
-    top: 20%;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-.button{
-    position: absolute;
-    top: 58%;
-    left: 40%;
+.container {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  top: 20vh;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn{
+  position: absolute;
+  width: 54%;
+  top: 72%;
+  left: 57.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-family:"Courier New";
+  font-size: 1vw;
+  color: white;
+  border: solid;
+  padding: 1vmin;
+  cursor: pointer;
+  border-radius: 2px;
+  transition-duration: 0.3s;
+
+}
+
+.container .btn:hover {
+  opacity: .6;
+  z-index: 100;
+}
+
+#oscars{
+  position: relative;
+  width: 100%;
+  /* width: 45vw; */
+  /* left: 27%; 
+  top: 23vh; */
+}
+
+/* .button{
+    position: relative;
+    top: 20vh;
+    top: 9.5vh;
+    left: 40vw;
     font-family:"Courier New";
-    /* background-color: #313639; */
+    font-size: 1vw;
+    background-color: transparent;
     color: white;
     border: solid;
     border-radius: 2px;
@@ -24,11 +66,11 @@ html, body {
     cursor: pointer;
     transition-duration: 0.3s;
     z-index: 100;
-}
+    margin-top: -20vh;
+} */
 
-.button:hover{
+/* .button:hover{
     opacity: .6;
-    /* color: white; */
     z-index: 100;
-  }
+  } */
   

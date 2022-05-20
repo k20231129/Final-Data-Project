@@ -65,7 +65,7 @@ d3.json("BestDirectorNominationData.json").then(function (data) {
   let arr = Object.values(data);
   // console.log(arr[0].age[0])    
 
-  svgGender = d3.select("body").append("svg");
+  svgGender = d3.select("#my_dataviz").append("svg");
     svgGender
     .attr("width", 5200)
     .attr("height", 300)

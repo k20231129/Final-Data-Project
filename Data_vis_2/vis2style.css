@@ -3,9 +3,6 @@ html, body {
     padding: 0;
     height: 1150px;
   }
-  /* canvas {
-    display: block;
-  } */
   
 .tooltip {
   position: absolute;
@@ -19,64 +16,69 @@ html, body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
   white-space: pre;
+}
 
+.plot{
+  position: relative;
+  top: -26vh;
 }
 .container {
-  position: absolute;
-  left: 40px;
-  top: 20px;
+  position: relative;
+  left: 4vw;
+  top: 5vh;
+  width: 90%;
 }
 
 .container h1 {
   font-family:"Courier New";
+  width: 90vw;
   font-size: 30px;
   font-weight: bold;
-  position: absolute;
-  width: 1000px;
-  top: 25px;
+  position: relative;
+  /* top: 25px; */
 }
 
 .container h2 {
   font-family:"Courier New";
   font-size: 20px;
   font-weight:100;
-  position: absolute;
-  width: 1400px;
-  top: 70px;
+  position: relative;
+  width: 90vw;
+  top: 0vw;
+  /* top: 70px; */
 }
 
 .container p1 {
   font-family:"Courier New";
   font-size: 17px;
   font-weight:100;
-  position: absolute;
-  width: 900px;
-  top: 650px;
-  left: 70px;
+  position: relative;
+  top: 75vh;
+  left: 2vw;
 }
 .container p2 {
   font-family:"Courier New";
   font-size: 17px;
   font-weight:100;
-  position: absolute;
-  width: 900px;
-  top: 705px;
-  left: 70px;
+  position: relative;
+  float: left;
+  top: 78vh;
+  left: 2vw;
 }
 .container p3 {
   font-family:"Courier New";
   font-size: 17px;
   font-weight:100;
-  position: absolute;
-  width: 900px;
-  top: 820px;
-  left: 70px;
+  position: relative;
+  float: left;
+  top: 81vh;
+  left: 2vw;
 }
 
 
 #backBtn1{
   position: relative;
-  top: 5px;
+  top: -.5vh;
   font-family:"Courier New";
 }
 
@@ -85,6 +87,20 @@ html, body {
   top: 950px;
   font-family:"Courier New";
   left: -50px;
+}
+
+#nextBtn1{
+  position: relative;
+  top: -.5vh;
+  left: 80vw;
+  font-family:"Courier New";
+}
+
+#nextBtn2{
+  position: relative;
+  top: 1500px;
+  left: 1150px;
+  font-family:"Courier New";
 }
 
 .reveal{

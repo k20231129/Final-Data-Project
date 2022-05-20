@@ -1,0 +1,174 @@
+/*This is the status of matching the horizontal screen, the CSS code when the screen is horizontal*/
+/* @media all and (orientation :landscape){} */
+
+/*This is the status of matching the vertical screen, and the CSS code for vertical screen*/
+/* @media all and (orientation :portrait){} */
+
+/* @media X and (min-width:200px){} */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Default: greater than or equal to 1000px*/
+@media (min-width: 1000px) {
+  .container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  #oscars{
+    position: relative;
+    width: 45vw;
+    left: 0vw; 
+    top: 23vh;
+  }
+  .button{
+    position: relative;
+    top: 20vh;
+    top: 9.5vh;
+    left: 40vw;
+    font-family:"Courier New";
+    font-size: 1vw;
+    color: white;
+    border: solid;
+    border-radius: 2px;
+    padding: 1vmin;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 100;
+  }
+}
+
+/*Resolution between tablet and small screen*/
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  #oscars{
+    position: relative;
+    width: 45vw;
+    left: 0vw; 
+    top: 23vh;
+  }
+  .button{
+    position: relative;
+    top: 20vh;
+    top: 9.5vh;
+    left: 40vw;
+    font-family:"Courier New";
+    font-size: 1vw;
+    color: white;
+    border: solid;
+    border-radius: 2px;
+    padding: 1vmin;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 100;
+  }
+}
+
+/*Resolution between horizontally placed mobile phones and vertically placed flat plates*/
+@media (max-width: 767px) {
+  .container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  #oscars{
+    position: relative;
+    width: 45vw;
+    left: 0vw; 
+    top: 23vh;
+  }
+  .button{
+    position: relative;
+    top: 20vh;
+    top: 9.5vh;
+    left: 40vw;
+    font-family:"Courier New";
+    font-size: 1vw;
+    color: white;
+    border: solid;
+    border-radius: 2px;
+    padding: 1vmin;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 100;
+  }
+}
+
+/*Horizontal mobile phones and smaller resolution devices*/
+@media (max-width: 480px) {
+  .container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  #oscars{
+    position: relative;
+    width: 45vw;
+    left: 0vw; 
+    top: 23vh;
+  }
+  .button{
+    position: relative;
+    top: 20vh;
+    top: 9.5vh;
+    left: 40vw;
+    font-family:"Courier New";
+    font-size: 1vw;
+    color: white;
+    border: solid;
+    border-radius: 2px;
+    padding: 1vmin;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 100;
+  }
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 1156px){
+
+} */
+
+
+
+/* .container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* #oscars{
+    position: relative;
+    width: 45vw;
+    left: 0vw; 
+    top: 23vh;
+} */
+
+/* .button{
+    position: relative;
+    top: 20vh;
+    top: 9.5vh;
+    left: 40vw;
+    font-family:"Courier New";
+    font-size: 1vw;
+    color: white;
+    border: solid;
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 100;
+} */
+
+.button:hover{
+    opacity: .6;
+    /* color: white; */
+    z-index: 100;
+  }
+  

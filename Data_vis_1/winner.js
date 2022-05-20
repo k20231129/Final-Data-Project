@@ -10,11 +10,11 @@ function initWinnerGraph(){
 
 //set up color key
 
-      color_svg_winner = d3.select('body')
+      color_svg_winner = d3.select('#color_key')
         .append('svg')
         .attr('width', 500)
         .attr('height', 50)
-        .attr('class', 'colorSvgWin hidden');
+        .attr('class', 'colorSvg hidden');
 
       color_svg_winner.append('rect')
         .attr('x', 65)
@@ -58,7 +58,7 @@ function initWinnerGraph(){
 d3.json("BestDirectorNominationData.json").then(function (data) {
   let arr = Object.values(data);
 
-  svgWinner = d3.select("body").append("svg");
+  svgWinner = d3.select("#my_dataviz").append("svg");
   svgWinner
     .attr("width", 5200)
     .attr("height", 300)

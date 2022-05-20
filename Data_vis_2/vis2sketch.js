@@ -22,10 +22,11 @@ function initScatterPlot(){
     // append the svg object to the body of the page
     const svg = d3.select("#my_dataviz")
     .append("svg")
+    .attr("class", "plot")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom + 100)
     .append("g")
-    .attr("transform", `translate(${margin.left}, ${margin.top + 30})`);
+    .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
     //Read the data
     d3.csv("NonWhitePercentage.csv").then( function(data) {
@@ -65,8 +66,8 @@ function initScatterPlot(){
     tooltip
     .html(Math.round(i['Percentage of Non-white Nominees'])+"% in Ceremony #" + i.CeremonyNum)
     // .html("The percentage of non-white nominees in Ceremony " + i.CeremonyNum + " is " + i['Percentage of Non-white Nominees'] + "%")
-    .style("left", (d3.pointer(event)[0]+30) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-    .style("top", (d3.pointer(event)[1] + 100) + "px")
+    .style("left", (d3.pointer(event)[0]) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+    .style("top", (d3.pointer(event)[1] + 130) +  "px")
     }
 
     // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again

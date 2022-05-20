@@ -58,23 +58,24 @@ function switchGraph(){
 
         case "Gender": //1
             hideAll()
-            svgGender.attr("class", "SvgChart")
+            // svgGender.attr("class", "SvgChart")
+            svgGender.attr("class", "SvgAge")
             divGender.attr("class", "tooltip")
             color_svg_gender.attr("class", "colorSvg")
             break;
 
         case "Ethnicity": //2
             hideAll()
-            svgEthnicity.attr("class", "SvgChart")
+            svgEthnicity.attr("class", "SvgAge")
             divEthnicity.attr("class", "tooltip")
             color_svg_ethnicity.attr("class", "colorSvg")
             break;
 
         case "Winner": //3
             hideAll()
-            svgWinner.attr("class", "SvgChart")
+            svgWinner.attr("class", "SvgAge")
             divWinner.attr("class", "tooltip")
-            color_svg_winner.attr("class", "colorSvgWin hFixed")
+            color_svg_winner.attr("class", "colorSvg")
             break;
     }
   }

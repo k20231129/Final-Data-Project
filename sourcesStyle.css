@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+.container {
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+    width: 90%;
+}
+  
+.container h1 {
+    font-family:"Courier New";
+    width: 100vw;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.container p1 {
+    font-family:"Courier New";
+    font-size: 17px;
+    font-weight:100;
+    float: left;
+    position: relative;
+    width: 90vw;
+    /* top: 12vh; */
+    left: 2.5vw;
+}
+
+.container p2 {
+    font-family:"Courier New";
+    font-size: 17px;
+    font-weight:100;
+    float: left;
+    position: relative;
+    width: 90vw;
+    top: 3vh;
+    left: 2.5vw;
+}
+
+#backBtn1{
+    position: relative;
+    font-family:"Courier New";
+  }
+
+.button{
+    position: relative;
+    font-family:"Courier New";
+    /* background-color: #313639; */
+    color: black;
+    /* color: white; */
+    border: solid;
+    border-radius: 2px;
+    padding: 7px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 100;
+}
+
+.button:hover{
+    opacity: .6;
+    z-index: 100;
+}

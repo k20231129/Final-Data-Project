@@ -85,7 +85,7 @@ function initEthnicityGraph(){
 d3.json("BestDirectorNominationData.json").then(function (data) {
   let arr = Object.values(data);  
 
-  svgEthnicity = d3.select("body").append("svg");
+  svgEthnicity = d3.select("#my_dataviz").append("svg");
     svgEthnicity
     .attr("width", 5200)
     .attr("height", 300)

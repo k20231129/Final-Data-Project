@@ -15,15 +15,20 @@ function reveal() {
   window.addEventListener("scroll", reveal);
 function initPieCharts(){
     // set the dimensions and margins of the graph
-    const width = 450,
+    // const width = 450,
+    // height = 450,
+    // margin = 40;
+
+    width = window.innerWidth/2.3,
     height = 450,
+    // height = window.innerHeight/2,
     margin = 40;
 
     // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
     radius = Math.min(width, height) / 2 - margin;
 
     // append the svg object to the div called 'my_dataviz'
-    pieSvg = d3.select("#my_dataviz3")
+    pieSvg = d3.select(".my_dataviz3")
     .append("svg")
     .attr("class", "chart")
     .attr("width", width)
